@@ -1,0 +1,2183 @@
+\documentclass[oneside]{book} % Indica que el tipo de documento es un libro 
+\usepackage[spanish]{babel} % Indica que usaremos caracteres propios del español
+\usepackage[utf8]{inputenc} % Carga el juego de caracteres internacional UTF-8
+\usepackage[document]{ragged2e} % Para usar el /justify y salto de linea con \\ y \n
+\usepackage{amsthm} % ¿Para qué se usa?
+\usepackage{amsmath} % Para alinear ecuaciones
+\usepackage{amssymb} % ¿Para qué se usa?
+\usepackage{amsbsy} % ¿Para qué se usa?
+\usepackage{graphicx} % Para usar imagenes
+\usepackage{hyperref} % Para que las referencias sean interactivas
+\hypersetup{colorlinks,linkcolor={black},citecolor={white},urlcolor={red}}  
+\usepackage{anysize} % Para modificar libremente el tamaño de hoja y margen
+\usepackage{longtable} % Para ecuaciones alineadas
+\usepackage{bm} % Para vectores unitarios
+\usepackage{hyphenat} % Para corregir warnings
+\usepackage{microtype} % Para evitar overfull \hbox
+\usepackage{xcolor} % Para usar colores distintos de fuente
+
+% -------NUEVOS ESTILOS PARA TEOREMAS Y DEFINICIONES-------
+
+% Estilo para Teoremas y Definiciones
+\newtheoremstyle{Teorema} % Nombre del estilo
+{2cm} % Espacio por encima del Teorema
+{2cm} % Espacio por debajo del Teorema
+{\rm} % Fuente del cuerpo del Teorema
+{0.5cm} % Indentado del titulo
+{\bf} % Fuente de la cabecera del Teorema
+{} % Puntuación que separa cabecera del cuerpo
+{\newline} % Espacio entre cabecera y cuerpo
+{\thmname{#1}\thmnumber{ #2}\textnormal{\thmnote{ (#3)}}} % Estilo del título
+
+% Estilo para Observaciones
+\newtheoremstyle{[Obs]} % Nombre del estilo
+{0.5cm} % Espacio por encima del Teorema
+{0.5cm} % Espacio por debajo del Teorema
+{\rm} % Fuente del cuerpo del Teorema
+{0.5cm} % Indentado del titulo
+{\bf} % Fuente de la cabecera del Teorema
+{} % Puntuación que separa cabecera del cuerpo
+{\newline} % Espacio entre cabecera y cuerpo
+{\thmname{#1}\thmnumber{ #2}\textnormal{\thmnote{ (#3)}}} % Estilo del título
+
+% Estilo para Ejemplos
+\newtheoremstyle{Ejemplos} % Nombre del estilo
+{1cm} % Espacio por encima del Teorema
+{1cm} % Espacio por debajo del Teorema
+{\rm} % Fuente del cuerpo del Teorema
+{0.5cm} % Indentado del titulo
+{\bf} % Fuente de la cabecera del Teorema
+{} % Puntuación que separa cabecera del cuerpo
+{\newline} % Espacio entre cabecera y cuerpo
+{\thmname{#1}\thmnumber{ #2}\textnormal{\thmnote{ (#3)}}} % Estilo del título
+
+% Definimos, con el estilo para Teoremas, los Ejercicios, Proposiciones, Corolario, Teorema, Definición, Nota, Notas y Lemma
+\theoremstyle{Teorema}
+\newtheorem{Definicion}{Definición}[chapter] 
+\newtheorem{Notacion}[Definicion]{Notación}
+\newtheorem{Teorema}[Definicion]{Teorema}
+\newtheorem{Corolario}[Definicion]{Corolario}
+\newtheorem{Ejercicio}[Definicion]{Ejercicio}
+\newtheorem{Proposicion}[Definicion]{Proposición}
+\newtheorem{Lema}[Definicion]{Lema}
+\newtheorem{Nota}[Definicion]{Nota}
+\newtheorem{Axioma}[Definicion]{Axioma}
+
+% Definimos, con el estilo para Ejemplos, los ejemplos
+\theoremstyle{Ejemplos}
+\newtheorem{Ejemplos}[Definicion]{Ejemplos}
+
+% Definimos, con el estilo para Observaciones, las observaciones
+\theoremstyle{[Obs]}
+\newtheorem*{Obs}{[Observaciones]}
+
+% Definimos el entorno de las pruebas
+\def\proof{\paragraph{Demostración \\}}
+\def\endproof{}
+
+% Definimos el entorno de soluciones
+\def\sol{\paragraph{Solución \\}}
+\def\endsol{}
+
+
+% ---------COMANDOS PROPIOS---------
+\newcommand{\abs}[1]{\left|#1\right|} % Valor absoluto
+\newcommand{\absSymbol}{\left|\right.} % Simbolo de valor absoluto
+\newcommand{\norm}[1]{\lVert#1\rVert} % Norma de un vector
+\newcommand{\normSymbol}{\lVert} % Simbolo de norma
+\renewcommand{\{}{\left\lbrace} % Llave izquierda
+\renewcommand{\}}{\right\rbrace} % Llave derecha
+\renewcommand{\o}{\ \vee \ } % Simbolo del o lógico
+\newcommand{\y}{\ \wedge\ } % Simbolo del y lógico
+\renewcommand{\u}{\cup} % Simbolo de unión
+\newcommand{\n}{\cap} % Simbolo de intersección
+\newcommand{\U}{\bigcup} % Simbolo de unión desde i hasta n
+\newcommand{\N}{\bigcap} % Simbolo de intersección desde i hasta n
+\newcommand{\darkmode}{\usepackage{xcolor}\pagecolor{black\color{white}}} % Activa o desactiva el modo oscuro
+\renewcommand{\sc}{\subseteq} % Simbolo de subconjunto
+\newcommand{\nv}{\neq \emptyset} % Simbolo de es no vacio
+\newcommand{\R}{\mathbb{R}} % Simbolo de R
+\newcommand{\Q}{\mathbb{Q}} % Simbolo de Q
+\newcommand{\I}{\mathbb{I}} % Simbolo de Q
+\newcommand{\C}{\mathbb{C}} % Simbolo de C
+\newcommand{\Rn}{\mathbb{R}^n} % Simbolo de R^n
+\newcommand{\Ri}[1]{\mathbb{R}^{#1}} % Simbolo de R^n variable
+\renewcommand{\qed}{$\blacksquare$} % Simbolo de Q.E.D
+\newcommand{\NuevoInciso}{\vspace{2cm}} % Espaciado entre Incisos
+\newcommand{\pd}{$\vdash\ $} % Simbolo de por demostrar
+\renewcommand{\c}{\includegraphics[scale=0.008]{img/C.png}} % Simbolo de contradicción
+\newcommand{\necesidad}{$\Rightarrow]\ $} % Simbolo para indicar que se prueba la necesidad
+\newcommand{\suficiencia}{$\Leftarrow]\ $} % Simbolo para indicar que se prueba la suficiencia
+\newcommand{\Imp}{$\Rightarrow\ $} % Implicación sin justificación
+\newcommand{\Implica}[2]{$\Rightarrow$ #1 \hspace{3cm} (#2) \\ } % Implicación con justificación
+\newcommand{\Implican}[3]{$\Rightarrow$ #1 \hspace{#3cm} (#2) \\ } % Implicación con justificación y argumento
+\newcommand{\nsc}{\nsubseteq} % Negación del símbolo de subconjunto
+\newcommand{\grad}{\triangledown} % Simbolo de gradiente
+\newcommand{\parcialC}[2]{\frac{\partial #1}{\partial #2}} % Parcial de una función respecto a una variable
+\newcommand{\parcialL}[2]{\frac{\partial}{\partial #2} \left( #1 \right)} % Parcial de una función (larga) respecto a una variable
+\newcommand{\comment}[1]{} % Para comandos multilinea
+
+% Vectores i, j y k
+\newcommand{\vi}{{\bm{\hat{\textnormal{\bfseries\i}}}}}
+\newcommand{\vj}{{\bm{\hat{\textnormal{\bfseries\j}}}}}
+\newcommand{\vk}{{\bm{\hat{\textnormal{\bfseries k}}}}}
+
+% Para integrales
+\newcommand{\sdint}[3]{\lefteqn{\displaystyle\iint \limits_{#1}^{} #2}\lefteqn{\hspace{1.2ex}\rule[3.35ex]{2.7ex}{0.15ex}}
+\phantom{\displaystyle\iint \limits_{#1}^{} #2} \ #3}
+\newcommand{\idint}[3]{\lefteqn{\displaystyle\iint \limits_{#1}^{} #2}\lefteqn{\hspace{0.0ex}\rule[-2.25ex]{2.7ex}{0.15ex}}
+\phantom{\displaystyle\iint \limits_{#1}^{} #2} \ #3}
+\newcommand{\dint}[3]{\displaystyle\iint \limits_{#1}^{} #2 \ #3}
+\newcommand{\stint}[3]{\lefteqn{\displaystyle\iiint \limits_{#1}^{} #2}\lefteqn{\hspace{1.2ex}\rule[3.35ex]{4.1ex}{0.15ex}}
+\phantom{\displaystyle\iiint \limits_{#1}^{} #2} \ #3}
+\newcommand{\itint}[3]{\lefteqn{\displaystyle\iiint \limits_{#1}^{} #2}\lefteqn{\hspace{0.0ex}\rule[-2.25ex]{4.1ex}{0.15ex}}
+\phantom{\displaystyle\iiint \limits_{#1}^{} #2} \ #3}
+\newcommand{\tint}[3]{\displaystyle\iiint \limits_{#1}^{} #2 \ #3}
+\newcommand{\snint}[3]{\lefteqn{\displaystyle\idotsint \limits_{#1}^{} #2}\lefteqn{\hspace{1.2ex}\rule[3.35ex]{6.8ex}{0.15ex}}
+\phantom{\displaystyle\idotsint \limits_{#1}^{} #2} \ #3}
+\newcommand{\inint}[3]{\lefteqn{\displaystyle\idotsint \limits_{#1}^{} #2}\lefteqn{\hspace{0.0ex}\rule[-2.25ex]{6.8ex}{0.15ex}}
+\phantom{\displaystyle\idotsint \limits_{#1}^{} #2} \ #3}
+\newcommand{\nint}[3]{\displaystyle\idotsint \limits_{#1}^{} #2 \ #3}
+\newcommand{\lints}[2]{\int \limits_{#1}^{#2}}
+\newcommand{\lint}[4]{\int \limits_{#1}^{#2} #3 \ d#4}
+\newcommand{\dlint}[3]{\int \limits_{#1}^{#2} #3}
+
+% Para integrales cerradas
+\newcommand{\olints}[2]{\oint \limits_{#1}^{#2}}
+\newcommand{\olint}[4]{\oint \limits_{#1}^{#2} #3 \ d#4}
+\newcommand{\odlint}[3]{\oint \limits_{#1}^{#2} #3}
+
+% Para limites
+\newcommand{\limite}[2]{\displaystyle\lim_{#1} #2}
+
+\makeindex
+\begin{document}
+
+    % Para evitar errores de compilación
+	\color{white} 
+	Cita de ejemplo: \cite{DUMMY:1}
+	\color{black} 
+
+	\tableofcontents
+	\justify
+	\title{Análisis Matemático en Espacios Métricos}
+
+	\chapter{Espacios Métricos}
+
+		\section{Definición y Ejemplos}
+
+			\begin{Definicion}[Espacio Pseudométrico]
+				
+				Una dupla $(M, d)$ donde $M$ es un conjunto no vacio y $d$ es una función $d : M \times M \to \R$ es un espacio pseudométrico si satisface que para cualesquiera $x, y, z \in M$ se cumplen: \\
+
+				\textbf{1)} $d(x, x) = 0$ \\
+
+				\textbf{2)} $d(x, y) \geq 0$ \\
+
+				\textbf{3)} $d(x, y) = d(y, x)$ \\
+
+				\textbf{4)} $d(x, y) \leq d(x, z) + d(z, y)$ \\
+
+				\begin{Obs}
+				
+					\hfill
+				
+					\textbf{1.} A los elementos de $M$ les llamaremos puntos. \\
+
+					\textbf{2.} A $d$ se le llama pseudométrica (O écart) de $M$ o del espacio $(M, d)$ \\
+
+					\textbf{3.} A \textbf{$4)$} se le conoce como desigualdad del triángulo
+				
+				\end{Obs}
+
+			\end{Definicion}
+
+			\begin{Definicion}[Espacio Métrico]
+
+				Una dupla $(M, d)$ donde $M$ es un conjunto no vacio y $d$ es una función $d : M \times M \to \R$ es un espacio métrico si satisface que para cualesquiera $x, y, z \in M$ se cumplen: \\
+
+				\textbf{1)} $d(x, x) = 0$ \\
+
+				\textbf{2)} $x \neq y$ \Imp $d(x, y) > 0$ \\
+
+				\textbf{3)} $d(x, y) = d(y, x)$ \\
+
+				\textbf{4)} $d(x, y) \leq d(x, z) + d(z, y)$ \\
+
+				\begin{Obs}
+				
+					\hfill
+				
+					\textbf{1.} A los elementos de $M$ les llamaremos puntos. \\
+
+					\textbf{2.} A $d$ se le llama métrica de $M$ o del espacio $(M, d)$ \\
+
+					\textbf{3.} A \textbf{$4)$} se le conoce como desigualdad del triángulo
+				
+				\end{Obs}
+
+			\end{Definicion}
+
+			\begin{Ejemplos}
+
+				\hfill
+
+				\textbf{1.} $(\R, d)$ donde $d(x, y) = \abs{x - y}$ para cualesquiera $x, y \in \R$ es un espacio métrico. \\
+				
+				\textbf{2.} $(\C, d)$ donde $d(z_1, z_2) = \abs{z_1 - z_2}$ para cualesquiera $z_1, z_2 \in \C$ es un espacio métrico. \\
+				
+				\textbf{3.} $(\Rn, d)$ donde $d(x, y) = \norm{x - y}$ para cualesquiera $x, y \in \Rn$ es un espacio métrico llamado espacio Euclidiano. \\
+				
+				\textbf{4.} $(\Rn, d)$ donde para cualesquiera $(x_1, x_2, ..., x_n), (y_1, y_2, ..., y_n) \in \Rn$, $d( (x_1, x_2, ..., x_n), (y_1, y_2, ..., y_n) ) = \abs{x_1 - y_1} + \abs{x_2 - y_2} + ... + \abs{x_n - y_n}$ es un espacio métrico. \\
+				
+				\textbf{5.} $(\Rn, d)$ donde para cualesquiera $(x_1, x_2, ..., x_n), (y_1, y_2, ..., y_n) \in \Rn$, $d( (x_1, x_2, ..., x_n), (y_1, y_2, ..., y_n) ) = \max\{ \abs{x_1 - y_1}, \abs{x_2 - y_2}, ..., \abs{x_n - y_n} \}$ es un espacio métrico. \\
+
+				\textbf{6.} $(\Ri{2}, d)$ donde para cualesquiera $(x_1, x_2), (y_1, y_2) \in \Ri{2}$, $d((x_1, x_2), (y_1, y_2)) = \sqrt{(x_1 - y_2)^2 + 4(x_2 - y_2)^2}$ es un espacio métrico. \\
+
+				\textbf{7.} Sea $M = \{ (x, y, z) : x^2 + y^2 + z^2 = 1 \}$ la esfera unitaria en $\Ri{3}$. Si para cualesquiera $x, y \in M$, $d(x, y)$ es la longitud de arco más pequeño que une $x$ y $y$, entonces $(M, d)$ es un espacio métrico. \\
+
+				\textbf{8.} Sea $M = \{ (x, y) : x^2 + y^2 = 1 \}$ el círculo unitario en $\Ri{2}$. Si para cualesquiera $x, y \in M$, $d(x, y)$ es la longitud de arco más pequeño que une $x$ y $y$, entonces $(M, d)$ es un espacio métrico. \\
+
+				\textbf{9.} Sean $(M, d)$ un espacio métrico y $S \sc M$ tal que $S \neq \emptyset$, entonces $(S, d) = (S, d\restriction_{S})$ es un espacio métrico. La métrica de este espacio se llama métrica relativa inducida por $d$ en $S$ y $(S, d)$ es llamado subespacio métrico de $M$. \\
+
+				\textbf{10.} Sean $M \neq \emptyset$, definimos $d : M \times M \to \R$ como para cualesquiera $x, y \in \R$, $d(x, y) = 0$ si $x = y$ y $d(x, y) = 1$ si $x \neq y$, entonces $(M, d)$ es un espacio métrico. A $d$ suele llamarsele métrica discreta y a $(M, d)$ espacio métrico discreto. \\
+
+				\textbf{11.} Sea $V$ un espacio vectorial sobre $\R$ equipado de una norma $\normSymbol$, para cualesquiera $x, y \in V$ definimos $d(x, y) := \norm{x - y}$, entonces $(V, d)$ es un espacio métrico. \\
+
+				\textbf{12.} Sea $V$ un espacio vectorial sobre $\R$ equipado de un producto interno $\cdot$, para cualesquiera $x, y \in V$ definimos $d(x, y) := \norm{x - y}$ donde $\normSymbol$ es la norma inducida por $\cdot$, entonces $(V, d)$ es un espacio métrico. \\
+
+				\textbf{13.} Sea $A$ un conjunto no vacio, denotamos por $B(A)$ al conjunto de todas las funciones $f : A \to \R$ que son acotadas y para cualesquiera $f, g \in B(A)$ definimos $d(f, g) = \sup\{ \abs{f(x) - g(x)} : x \in A \}$, entonces $(B(A), d)$ es un espacio métrico. \\
+
+			\end{Ejemplos}
+
+			A menos que se exprese lo contrario, cada vez que consideremos proposiciones o ejemplos en $\Rn$, consideremos al espacio métrico Euclidiano que denotamos por $(\Rn, \normSymbol)$. Analogamente para $\C$ con la distancia del ejemplo 2 y lo denotamos por $(\C, \absSymbol)$ \\
+
+		\section{Equivalencias y propiedades básicas}
+
+			\begin{Lema}
+				
+				Sea $(M, d)$ un espacio pseudométrico, entonces \\
+
+				\[ \forall x, y, z, t \in M : \abs{d(x, y) - d(z, t)} \leq d(x, z) + d(y, t) \] \\
+
+			\end{Lema}
+
+			\begin{Corolario}
+
+				Sea $(M, d)$ un espacio pseudométrico, entonces \\
+
+				\[ \forall x, y, z \in M : \abs{d(x, z) - d(y, z)} \leq d(x, y) \] \\
+
+			\end{Corolario}
+
+			\begin{Proposicion}
+				
+				Sea $(M, d)$ un espacio métrico, entonces $(M, d)$ es un espacio pseudométrico.
+
+			\end{Proposicion}
+
+			\begin{Corolario}
+
+				Sea $(M, d)$ un espacio métrico, entonces \\
+
+				\[ \forall x, y, z, t \in M : \abs{d(x, y) - d(z, t)} \leq d(x, z) + d(y, t) \] \\
+
+			\end{Corolario}
+
+			\begin{Corolario}
+
+				Sea $(M, d)$ un espacio métrico, entonces \\
+
+				\[ \forall x, y, z \in M : \abs{d(x, z) - d(y, z)} \leq d(x, y) \] \\
+
+			\end{Corolario}
+
+			\begin{Proposicion}
+
+				Sean $M$ un conjunto no vacio y $d$ una función $d : M \times M \to \R$. $(M, d)$ es un espacio métrico si y sólo si para cualesquiera $x, y, z \in M$ se cumplen: \\
+
+				\textbf{1)} $d(x, y) \geq 0$ \\
+
+				\textbf{2)} $d(x, y) = 0 \Leftrightarrow x = y$ \\
+
+				\textbf{3)} $d(x, y) \leq d(x, z) + d(z, y)$ \\
+
+			\end{Proposicion}
+
+			\begin{Proposicion}
+
+				Sean $M$ un conjunto no vacio y $d$ una función $d : M \times M \to \R$. $(M, d)$ es un espacio métrico si y sólo si para cualesquiera $x, y, z \in M$ se cumplen: \\
+
+				\textbf{1)} $d(x, y) = 0 \Leftrightarrow x = y$ \\
+
+				\textbf{2)} $d(x, y) \leq d(x, z) + d(z, y)$ \\
+
+			\end{Proposicion}
+
+		\section{Construcción de métricas a partir de otras}
+
+			\begin{Proposicion}
+
+				Sean $(M, d)$ un espacio métrico y $f : M \to M$ inyectiva. Si $d'$ es la función: \\
+
+				\[\begin{matrix}
+						
+					d' & : M \times M & \to & \R \\
+
+					& d'(x, y) & \mapsto & d(f(x), f(y)) 
+
+				\end{matrix} \] \\
+
+				Entonces $(M, d')$ es un espacio métrico.
+
+			\end{Proposicion}
+
+			\begin{Proposicion}
+				
+				Sean $(M, d)$ un espacio métrico y $d' : M \times M \to M$ tal que para cualesquiera $x, y \in M$, $d'(x, y) = \min\{ 1, d(x, y) \}$, entonces $(M, d')$ es un espacio métrico. \\
+
+			\end{Proposicion}
+
+			\begin{Teorema}
+				
+				Sea $(F, \rho)$ un espacio pseudométrico, definimos la relación $\sim$  en $F$ como sigue, para cualesquiera $x, y \in F$, $x \sim y$ si y sólo si $\rho(x, y) = 0$, entonces \\
+				
+				\textbf{1)} $\sim$ es una relación de equivalencia \\
+				
+				\textbf{2)} Si $x \sim y$ y $z \sim w$, entonces $\rho(x, z) = \rho(y, w)$ \\
+
+				\textbf{3)} Si $M = F/\sim$, para cualesquiera $\alpha, \beta \in M$ tomamos $x \in \alpha$, $y \in \beta$ y definimos $d(\alpha, \beta) := \rho(x, y)$, entonces $(M, d)$ es un espacio métrico \\
+
+			\end{Teorema}
+
+			\begin{Teorema}
+				
+				Sean $M \neq \emptyset$ y $d_1, d_2, ..., d_n$ métricas sobre $M$, definimos $d' : M \times M \to M$ como sigue, para cualesquiera $x, y \in M$, $d'(x, y) = \displaystyle\sum_{i = 1}^{n} d_i(x, y)$, entonces $(M, d')$ es un espacio métrico. \\
+
+			\end{Teorema}
+
+			\begin{Teorema}
+				
+				Sean $(M, d)$ un espacio métrico y $d' : M \times M \to M$ tal que para cualesquiera $x, y \in M$, $d'(x, y) = \frac{d(x,y)}{1 + d(x, y)}$, entonces $(M, d')$ es un espacio métrico. \\
+
+			\end{Teorema}
+
+			\begin{Teorema}
+				
+				Sean $(M, d_M), (S, d_S)$ espacios métricos, para cualesquiera $x = (x_1, x_2) \in M$ y $y = (y_1, y_2) \in S$ definimos \\
+
+				\textbf{1)} $d_{M \times S}(x, y) = d_M(x_1, y_1) + d_S(x_2, y_2)$ \\
+
+				\textbf{2)} $d_1(x, y) = \max\{ d_M(x_1, x_2), d_S(x_1, x_2) \}$ \\
+
+				\textbf{3)} $d_2(x, y) = \sqrt{d_M(x_1, y_1)^2 + d_S(x_2, y_2)^2}$ \\
+
+				Entonces $d_1, d_2$ y $d_{M \times S}$ son métricas para $M \times S$. \\
+
+			\end{Teorema}
+
+			\begin{Teorema}
+				
+				Sean $M \neq \emptyset$ y $\{ d_n \}$ una sucesión de métricas para $M$ tales que \\
+
+				\[ \forall x, y \in M : \forall n \in \mathbb{N} : d_n(x, y) \leq 1 \] \\
+
+				Entonces $d' = \displaystyle\sum_{n = 0}^{\infty} \frac{d_n}{2^n}$ es una métrica sobre $M$. \\
+
+			\end{Teorema}
+
+		\section{Métricas relacionadas con $\R$}
+
+			\begin{Teorema}
+				
+				Sea $M$ el conjunto de todas las sucesiones reales acotadas y $d : M \times M \to M$ tal que para cualesquiera $\{ x_n \}, \{ y_n \} \in M$, $d(\{ x_n \}, \{ y_n \}) = \sup\{ \abs{ x_n - y_n} : n \in N \}$, entonces $(M, d)$ es un espacio métrico. \\
+
+			\end{Teorema}
+
+			\begin{Teorema}
+				
+				Sea $M$ el conjunto de todas las sucesiones reales y $d : M \times M \to M$ tal que para cualesquiera $\{ x_n \}, \{ y_n \} \in M$, $d(\{ x_n \}, \{ y_n \}) = \displaystyle\sum_{n = 0}^{\infty} \frac{1}{n!} \cdot \frac{\abs{x_n - y_n}}{1 + \abs{x_n - y_n}}$, entonces $(M, d)$ es un espacio métrico. \\
+
+			\end{Teorema}
+
+			\begin{Teorema}
+				
+				Sea $C[a, b]$ el conjunto de todas las funciones continuas de valores reales en el intervalo $[a, b]$, para cualesquiera $f, g \in C[a, b]$ definimos \\
+
+				\[ d(f, g) = \int_{a}^{b} \frac{\abs{f(x) - g(x)}}{1 + \abs{f(x) - g(x)}} dx \] \\
+
+				Entonces $(C[a, b], d)$ es un espacio métrico. \\
+
+			\end{Teorema}
+
+		\section{Distancia entre conjuntos}
+
+			\begin{Definicion}[Distancia de un punto a un conjunto]
+				
+				Sean $(M, d)$ un espacio métrico, $x_0 \in M$ y $S \sc M$ no vacio. La distancia de $x_0$ a $S$, denotada $d(x_0, S)$ es el ínfimo de $\{ d(x_0, x) : x \in S \}$, esto es: \\
+
+				\[ d(x_0, S) := \inf\{ d(x_0, x) : x \in S \} \] \\
+
+				\begin{Obs}
+				
+					\hfill
+				
+					\textbf{1.} Definimos $d(S, x_0)$ como $d(x_0, S)$, es decir $d(S, x_0) := d(x_0, S) = \inf\{ d(x_0, x) : x \in S \}$. \\
+				
+				\end{Obs}
+
+			\end{Definicion}
+
+			\begin{Proposicion}
+				
+				Sean $(M, d)$ un espacio métrico, $x_0, y_0 \in M$ y $S \sc M$ no vacio, entonces \\
+				
+				\textbf{1)} $d(x_0, S) \geq 0$ \\
+
+				\textbf{2)} $x_0 \in A$ \Imp $d(x_0, A) = 0$ \\
+
+				\textbf{3)} $\abs{d(x_0, A) - d(y_0, A)} \leq d(x_0, y_0)$ \\
+
+			\end{Proposicion}
+
+			\begin{Definicion}[Distancia entre conjuntos]
+				
+				Sean $(M, d)$ un espacio métrico y $A, B \sc M$ no vacios. La distancia de $A$ a $B$, denotada $d(A, B)$ es el ínfimo de $\{ d(x, y) : x \in A \y y \in B \}$, esto es: \\
+
+				\[ d(A, B) := \inf\{ d(x, y) : x \in A \y y \in B \} \] \\
+
+			\end{Definicion}
+
+			\begin{Proposicion}
+				
+				Sean $(M, d)$ un espacio métrico y $A, B \sc M$ no vacios, entonces \\
+				
+				\textbf{1)} $d(A, B) \geq 0$ \\
+
+				\textbf{2)} $A \n B \neq \emptyset$ \Imp $d(A, B) = 0$ \\
+
+				\textbf{3)} $d(A, B) = d(B, A)$ \\
+
+			\end{Proposicion}
+
+			\begin{Lema}
+				
+				Sean $(M, d)$ un espacio métrico y $A, B \sc M$ no vacios, entonces \\
+
+				\[ d(A, B) = \inf\{ d(x, B) : x \in A \} = \inf\{ d(A, y) : y \in B \} \] \\
+
+			\end{Lema}
+
+		\section{Isometrías}
+
+			\begin{Definicion}[Isometría]
+				
+				Sean $(M, d_M)$ y $(S, d_S)$ espacios métricos. Una isometría de $M$ a $S$ es una función biyectiva \\
+				
+				\[ f : M \to S \] \\
+
+				Tal que \\
+
+				\[ \forall x, y \in M : d_M(x, y) = d_S(f(x), f(y)) \] \\
+
+				\begin{Obs}
+				
+					\hfill
+				
+					\textbf{1.} $M$ y $S$ son isométricos si existe una isometría de $M$ a $S$. \\
+
+					\textbf{2.} Si $g : M \to S$ satisface que $\forall x, y \in M : d_M(x, y) = d_S(g(x), g(y))$, diremos que $g$ preserva distancias. \\ 
+				
+				\end{Obs}
+
+			\end{Definicion}
+
+			\begin{Proposicion}
+				
+				Sean $(M, d_M), (S, d_S), (N, d_N)$ espacios métricos, entonces \\
+
+				\textbf{1)} $M$ es isométrico a $M$ \\
+
+				\textbf{2)} Si $M$ es isométrico a $S$, entonces $S$ es isométrico a $M$ \\
+
+				\textbf{3)} Si $S$ es isométrico a $M$ y $M$ es isométrico a $N$, entonces $S$ es isométrico a $N$. \\
+
+			\end{Proposicion}
+
+			\begin{Proposicion}
+				
+				Sean $(M, d_M)$ y $(S, d_S)$ espacios métricos y $f : M \to S$ una función sobreyectiva tal que \\
+
+				\[ \forall x, y \in M : d_M(x, y) = d_S(f(x), f(y)) \] \\
+
+				Entonces $f$ es una isometría. \\
+
+			\end{Proposicion}
+
+			\begin{Corolario}
+				
+				Sean $(M, d_M)$ y $(S, d_S)$ espacios métricos y $f : M \to S$ una función tal que \\
+
+				\[ \forall x, y \in M : d_M(x, y) = d_S(f(x), f(y)) \] \\
+
+				Entonces $M$ es isométrico a algún subespacio $E$ de $S$. \\
+
+			\end{Corolario}
+
+			\begin{Ejemplos}
+
+				\hfill
+				
+				\textbf{1.} $\Ri{2}$ y $\C$ son isométricos \\
+
+			\end{Ejemplos}
+
+	\chapter{Conjuntos abiertos y conjuntos cerrados}
+
+		\section{Conjuntos abiertos}
+
+			\begin{Definicion}[Bola abierta]
+				
+				Sea $(M, d)$ un espacio métrico. Si $a \in M$ y $r \in \R$ con $r > 0$, al conjunto $\{ x \in M : d(x, a) < r \}$ le llamamos bola (abierta) de radio $r$ y centro $a$ (En $M$) y se denota $B_M(a;r)$ o $B(a;r)$ si no hay lugar a confusión. \\
+
+			\end{Definicion}
+
+			\begin{Proposicion}
+				
+				Sea $(M, d)$ un espacio métrico, entonces para cualesquiera reales $r_1, r_2 > 0$ y $x \in M$ se cumple que \\
+				
+				\[ r_1 < r_2 \Rightarrow B(x;r_1) \sc B(x;r_2) \] \\
+
+			\end{Proposicion}
+
+			\begin{Definicion}[Punto interior]
+
+				Sean $(M, d)$ un espacio métrico, $S \sc M$ y $a \in S$. Diremos que $a$ es un punto interior de $S$ (En $M$) si existe un real $r > 0$ tal que $B(a;r) \sc S$. \\
+
+			\end{Definicion}
+
+			\begin{Definicion}[Interior de un conjunto]
+
+				Sean $(M, d)$ un espacio métrico y $S \sc M$, definimos el interior de $S$ (En $M$), denotado $int(S)$, como sigue: \\
+
+				\[ int(S) := \{ x \in S : x \text{ es un punto interior de } S \} \] \\
+
+			\end{Definicion}
+
+			\begin{Definicion}[Conjunto abierto]
+
+				Sean $(M, d)$ un espacio métrico y $S \sc M$. $S$ es llamado abierto (En $M$) si todos sus puntos son interiores, esto es, si $S \sc int(S)$. \\
+
+			\end{Definicion}
+
+			\begin{Proposicion}
+				
+				Sea $(M, d)$ un espacio métrico, entonces \\
+
+				\textbf{1)} $M$ es un conjunto abierto \\
+
+				\textbf{2)} $\emptyset$ es un conjunto abierto \\
+
+				\textbf{3)} Para cualquier real $r > 0$ y cualquier $a \in M$, $B(a;r)$ es un conjunto abierto \\
+
+			\end{Proposicion}
+
+			\begin{Proposicion}
+				
+				Sean $(M, d)$ un espacio métrico y $A, B, S \sc M$, entonces \\
+
+				\textbf{1)} $int(S) \sc S$ \\
+
+				\textbf{2)} $S$ es abierto $\Leftrightarrow$ $S = int(S)$ \\
+
+				\textbf{3)} $A \sc B$ \Imp $int(A) \sc int(B)$ \\
+
+				\textbf{4)} $int(S)$ es abierto \\
+
+			\end{Proposicion}
+
+			\begin{Teorema}
+				
+				Sean $(M, d)$ un espacio métrico y $A \sc M$, entonces \\
+				
+				\textbf{1)} $int(A)$ es el $\sc$-máximo conjunto abierto contenido en $A$ \\
+
+				\textbf{2)} $int(A) = \U\{ B \sc A : B \text{ es abierto} \}$ \\
+
+			\end{Teorema}
+
+
+			\begin{Teorema}
+
+				Sea $(M, d)$ un espacio métrico, entonces la unión arbitraria de cualquier colección arbitraria de conjuntos abiertos (En $M$) es un conjunto abierto (En $M$). \\
+
+			\end{Teorema}
+
+			\begin{Teorema}
+
+				Sea $(M, d)$ un espacio métrico, entonces la intersección finita de conjuntos abiertos (En $M$) es un conjunto abierto (En $M$). \\
+
+			\end{Teorema}
+
+			\begin{Teorema}
+				
+				Sean $(M, d)$ un espacio métrico y $A, B \sc M$, entonces \\
+
+				\textbf{1)} $int(A) \u int(B) \sc int(A \u B)$ \\
+
+				\textbf{2)} $int(A) \n int(B) = int(A \n B)$ \\
+
+			\end{Teorema}
+
+			\begin{Definicion}[Vecindad o entorno]
+				
+				Sean $(M, d)$ un espacio métrico, $S \sc M$ y $a \in M$. $S$ es un entorno de $a$ si $S$ es abierto y $a \in S$. \\
+
+				\begin{Obs}
+				
+					\hfill
+				
+					\textbf{1.} Otra forma de enunciarlo es la siguiente: Un entorno de un punto $a$ es cualquier conjunto abierto que lo contenga. \\
+
+					\textbf{2.} A un entorno de $a$ tambien se le llama vecindad de $a$. \\
+				
+				\end{Obs}
+
+			\end{Definicion}
+
+			\begin{Proposicion}
+				
+				Sean $(M, d)$ un espacio métrico y $a \in M$, entonces \\
+				
+				\textbf{1)} Para cualquier $r \in \R_{+}$, $B(a;r)$ es un entorno de $a$ \\ 
+
+				\textbf{2)} Para cualquier entorno $S$ de $a$, existe un $r_0 \in R_{+}$ tal que $B(a;r_0) \sc S$ \\
+
+				\textbf{3)} Para cualquier conjunto abierto $S$ y $b \in S$, $S$ es un entorno para $b$ \\
+
+				\textbf{4)} Si $F$ es cualquier familia de entornos de $a$, entonces $\U F$ es un entorno de $a$ \\
+
+				\textbf{5)} Si $F$ es una familia finita de entornos de $a$, entonces $\N F$ es un entorno de $a$ \\
+
+			\end{Proposicion}
+
+		\section{Conjuntos cerrados}
+
+			\begin{Definicion}[Bola cerrada]
+					
+				Sea $(M, d)$ un espacio métrico. Si $a \in M$ y $r \in \R$ con $r > 0$, al conjunto $\{ x \in M : d(x, a) \leq r \}$ le llamamos bola cerrada de radio $r$ y centro $a$ (En $M$) y se denota $B_M[a;r]$ o $B[a;r]$ si no hay lugar a confusión. \\
+
+			\end{Definicion}
+
+			\begin{Proposicion}
+				
+				Sea $(M, d)$ un espacio métrico, entonces para cualesquiera reales $r_1, r_2 > 0$ y $x \in M$ se cumple que \\
+				
+				\[ r_1 < r_2 \Rightarrow B[x;r_1] \sc B[x;r_2] \] \\
+
+			\end{Proposicion}
+
+			\begin{Definicion}[Superficie esférica]
+				
+				Sea $(M, d)$ un espacio métrico. Si $a \in M$ y $r \in \R$ con $r > 0$, al conjunto $\{ x \in M : d(x, a) = r \}$ le llamamos superficie esférica de radio $r$ y centro $a$ (En $M$) y se denota $S_M(a;r)$ o $S(a;r)$ si no hay lugar a confusión. \\
+
+			\end{Definicion}
+
+			\begin{Proposicion}
+				
+				Sean $(M, d)$, $a \in M$ y $r$ un real positivo, entonces \\
+
+				\textbf{1)} $B(a;r) \sc B[a;r]$ \\
+
+				\textbf{2)} $S(a;r) \sc B[a;r]$ \\
+
+				\textbf{3)} $B(a;r) \n S(a;r) = \emptyset$ \\
+
+				\textbf{4)} $B[a;r] = B(a;r) \u S(a;r)$ \\
+
+				\textbf{5)} $B(a;r) = B[a;r] - S(a;r)$ \\
+
+			\end{Proposicion}
+
+			\begin{Definicion}[Conjunto cerrado]
+
+				Sean $(M, d)$ un espacio métrico y $S \sc M$. Diremos que $S$ es cerrado (En $M$) si $M - S$ es un conjunto abierto (En $M$). \\
+
+			\end{Definicion}
+
+			\begin{Proposicion}
+				
+				Sean $(M, d)$ un espacio métrico y $S \sc M$, entonces $S$ es abierto si y solo si $M - S$ es cerrado. \\
+
+			\end{Proposicion}
+
+			\begin{Proposicion}
+				
+				Sea $(M, d)$ un espacio métrico, entonces \\
+
+				\textbf{1)} $M$ es un conjunto cerrado \\
+
+				\textbf{2)} $\emptyset$ es un conjunto cerrado \\
+
+				\textbf{3)} Para cualquier real $r > 0$ y cualquier $a \in M$, $B[a;r]$ es un conjunto cerrado \\
+
+				\textbf{4)} Para cualquier real $r > 0$ y cualquier $a \in M$, $S(a;r)$ es un conjunto cerrado \\
+
+			\end{Proposicion}
+
+			\begin{Teorema}
+
+				Sea $(M, d)$ un espacio métrico, entonces la intersección arbitraria de cualquier colección arbitraria de conjuntos cerrados (En $M$) es un conjunto cerrado (En $M$). \\
+
+			\end{Teorema}
+
+			\begin{Teorema}
+
+				Sea $(M, d)$ un espacio métrico, entonces la unión finita de conjuntos cerrados (En $M$) es un conjunto cerrado (En $M$). \\
+
+			\end{Teorema}
+
+		\section{Puntos adherentes y puntos de acumulación}
+
+			\begin{Definicion}[Punto adherente]
+				
+				Sean $(M, d)$ un espacio métrico, $S \sc M$ y $x \in M$. $x$ es un punto adherente a $S$ si para cada real $r > 0$, se cumple que $B(x;r)$ y $S$ tienen al menos un punto en común. \\
+
+				\begin{Obs}
+				
+					\hfill
+				
+					\textbf{1.} $x$ no necesariamente es un punto de $S$. \\
+				
+				\end{Obs}
+
+			\end{Definicion}
+
+			\begin{Teorema}
+				
+				Sean $(M, d)$ un espacio métrico, $S \sc M$ y $x \in M$. $x$ es un punto adherente a $S$ si y solo si todo entorno de $x$ contiene puntos de $S$. \\
+
+			\end{Teorema}
+
+			\begin{Definicion}[Cerradura]
+				
+				Sean $(M, d)$ un espacio métrico y $S \sc M$. El conjunto de todos los puntos adherentes a $S$ se llama cerradura de $S$ y se denota $\overline{S}$, esto es: \\
+
+				\[ \overline{S} := \{ x \in M : x \text{ es adherente a } S \} \] \\
+
+			\end{Definicion}
+
+			\begin{Proposicion}
+				
+				Sean $(M, d)$ un espacio métrico y $S \sc M$, entonces $S \sc \overline{S}$. \\
+
+			\end{Proposicion}
+
+			\begin{Definicion}[Punto de acumulación]
+				
+				Sean $(M, d)$ un espacio métrico, $S \sc M$ y $a \in M$. $a$ es un punto de acumulación de $S$ si $a$ es adherente a $S - \{ a \}$. \\ 
+
+			\end{Definicion}
+
+			\begin{Teorema}
+				
+				Sean $(M, d)$ un espacio métrico, $S \sc M$ y $x \in M$. $x$ es un punto de acumulación de $S$ si y solo si todo entorno de $x$ contiene puntos de $S$ distintos de $x$. \\
+
+			\end{Teorema}
+
+			\begin{Definicion}[Conjunto derivado]
+				
+				Sean $(M, d)$ un espacio métrico y $S \sc M$. El conjunto de todos los puntos de acumulación de $S$ se llama conjunto derivado de $S$ y se denota $S'$, esto es: \\
+
+				\[ S' := \{ x \in M : x \text{ es un punto de acumulacion de } S \} \] \\
+
+			\end{Definicion}
+
+			\begin{Teorema}
+				
+				Sean $(M, d)$ un espacio métrico y $S \sc M$, entonces $\overline{S} = S \u S'$. \\
+
+			\end{Teorema}
+
+			\begin{Teorema}
+				
+				Sean $(M, d)$ un espacio métrico y $S \sc M$, entonces $S' \sc \overline{S}$. \\
+
+			\end{Teorema}
+
+			\begin{Teorema}
+				
+				Sean $(M, d)$ un espacio métrico y $A, B \sc M$. Si $A \sc B$, entonces $A' \sc B'$. \\
+
+			\end{Teorema}
+
+			\begin{Corolario}
+				
+				Sean $(M, d)$ un espacio métrico y $A, B \sc M$. Si $A \sc B$, entonces $\overline{A} \sc \overline{B}$. \\
+
+			\end{Corolario}
+
+			\begin{Definicion}[Punto aislado]
+				
+				Sean $(M, d)$ un espacio métrico, $S \sc M$ y $x \in M$. Si $x \in S$ pero $x \notin S'$, diremos que $x$ es un punto aislado de $S$. \\
+
+			\end{Definicion}
+
+			\begin{Teorema}
+				
+				Sean $(M, d)$ un espacio métrico, $S \sc M$ y $x \in S'$, entonces para todo real $r > 0$, $B(x;r)$ tiene infinitos puntos de $S$. \\
+
+			\end{Teorema}
+
+			\begin{Corolario}
+				
+				Sean $(M, d)$ un espacio métrico, $A \sc M$, $x \in A'$ y $S$ un entorno de $x$, entonces $(S - \{ x \}) \n A$ contiene una infinidad de puntos. \\ 
+
+			\end{Corolario}
+
+			\begin{Corolario}
+				
+				Sean $(M, d)$ un espacio métrico y $S \sc M$. Si $S$ es finito, entonces $S$ no tiene puntos de acumulación. \\
+
+			\end{Corolario}
+
+			\begin{Corolario}
+				
+				Sean $(M, d)$ un espacio métrico y $S \sc M$. Si $S$ tiene un punto de acumulación, entonces $S$ es infinito. \\
+
+			\end{Corolario}
+
+			\begin{Teorema}
+				
+				Sean $(M, d)$ un espacio métrico y $S \sc M$, entonces $(\overline{S})' = S'$. \\
+
+			\end{Teorema}
+
+		\section{Relación entre conjuntos cerrados y puntos adherentes}
+
+			\begin{Teorema}
+				
+				Sean $(M, d)$ un espacio métrico y $A, B \sc M$ tales que $A$ es abierto y $B$ es cerrado, entonces: \\
+
+				\textbf{1)} $A - B$ es abierto. \\
+
+				\textbf{2)} $B - A$ es cerrado. \\
+
+			\end{Teorema}
+
+			\begin{Teorema}
+				
+				Sean $(M, d)$ un espacio métrico y $S \sc M$, entonces las siguientes afirmaciones son equivalentes: \\
+
+				\textbf{1)} $S$ es cerrado \\
+
+				\textbf{2)} $\overline{S} \sc S$ \\
+
+				\textbf{3)} $\overline{S} = S$ \\
+
+				\textbf{4)} $S' \sc S$ \\
+
+			\end{Teorema}
+
+			\begin{Corolario}
+				
+				Sean $(M, d)$ un espacio métrico y $S \sc M$. Si $S' = \emptyset$, entonces $S$ es cerrado. \\
+
+			\end{Corolario}
+
+			\begin{Corolario}
+				
+				Sean $(M, d)$ un espacio métrico y $S \sc M$, entonces $S'$ y $\overline{S}$ son cerrados. \\
+
+			\end{Corolario}
+
+			\begin{Teorema}
+				
+				Sean $(M, d)$ un espacio métrico y $S \sc M$. Si $S$ tiene una infinidad de puntos, entonces $S$ es cerrado. \\
+
+			\end{Teorema}
+
+			\begin{Teorema}
+				
+				Sean $(M, d)$ un espacio métrico y $S \sc M$ tal que $\overline{S} \neq \emptyset$, entonces las siguientes afirmaciones son equivalentes \\
+
+				\textbf{1)} $x \in \overline{A}$ \\
+
+				\textbf{2)} $d(x, A) = 0$ \\
+
+				\textbf{3)} Para todo entorno $S$ de $x$, $S \n A \neq \emptyset$ \\
+
+			\end{Teorema}
+
+			\begin{Proposicion}
+
+				Sean $(M, d)$ un espacio métrico, $a \in M$ y $r \in \R_{+}$, entonces $B[a:r] \sc \overline{B(a;r)}$. \\
+
+			\end{Proposicion}
+
+			\begin{Teorema}
+				
+				Sean $(M, d)$ un espacio métrico y $A, B \sc M$, entonces \\
+
+				\textbf{1)} $\overline{A \n B} \sc \overline{A} \n \overline{B}$ \\
+
+				\textbf{2)} $\overline{A \u B} = \overline{A} \u \overline{B}$ \\
+
+			\end{Teorema}
+
+			\begin{Teorema}
+				
+				Sean $(M, d)$ un espacio métrico y $A \sc M$, entonces \\
+
+				\textbf{1)} $\overline{A}$ es el $\sc$-mínimo conjunto cerrado contenido en $A$ \\
+
+				\textbf{2)} $\overline{A} = \N\{ B \sc M : A \sc B \text{ y } B \text{ es cerrado} \}$ \\
+
+			\end{Teorema}
+
+			\begin{Teorema}
+				
+				Sean $(M, d)$ un espacio métrico y $A \sc M$, entonces \\
+
+				\textbf{1)} $\overline{M - A} = M - int(A)$ \\
+
+				\textbf{2)} $M - \overline{A} = int(M - A)$ \\
+
+			\end{Teorema}
+
+			\begin{Definicion}[Conjunto perfecto]
+				
+				Sean $(M, d)$ un espacio métrico y $S \sc M$. Diremos que el conjunto $S$ es perfecto si $S' = S$. \\
+
+			\end{Definicion}
+
+		\section{Subespacios}
+
+			\begin{Teorema}
+				
+				Sean $(M, d)$ un espacio métrico y $(S, d)$ un subespacio de $(M, d)$, entonces para todo $x \in S$ y todo real $r > 0$ se cumple que: \\
+
+				\[ B_S(x;r) = B_M(x;r) \n S. \] \\
+
+			\end{Teorema}
+
+			\begin{Ejemplos}
+				
+				\textbf{1.} $B_{\R}(0;1) = (-1, 1)$, $B_{[0, 1]}(0;1) = [0, 1)$ y $[0, 1) = (-1, 1) \n [0, 1]$. \\
+
+				\textbf{2.} Sea $(M, d)$ un espacio métrico discreto, entonces todo $S \sc M$ es abierto y cerrado. \\
+
+				\textbf{3.} Los intervalos de la forma $[0, x)$ o $(x, 1]$ con $x \in (0, 1)$ son abiertos en $([0, 1], \normSymbol)$ pero no en $(\R, \normSymbol)$ \\
+
+			\end{Ejemplos}
+
+			\begin{Teorema}
+				
+				Sean $(M, d)$ un espacio métrico, $(S, d)$ un subespacio de $(M, d)$ y $X \sc M$, entonces \\
+
+				\[ X \text{ es abierto en } S \Leftrightarrow X = A \n S \text{ p.a. conjunto abierto } A \text{ en } M. \] \\
+
+			\end{Teorema}
+
+			\begin{Teorema}
+				
+				Sean $(M, d)$ un espacio métrico, $(S, d)$ un subespacio de $(M, d)$ y $Y \sc M$, entonces \\
+
+				\[ Y \text{ es cerrado en } S \Leftrightarrow Y = B \n S \text{ p.a. conjunto cerrado } B \text{ en } M. \] \\
+
+			\end{Teorema}
+
+			\begin{Corolario}
+				
+				Sean $(M, d)$ un espacio métrico, $(S, d)$ un subespacio de $(M, d)$ tal que $S$ es abierto en $M$ y $Y \sc M$, entonces \\
+
+				\[ Y \text{ es abierto en } S \Leftrightarrow Y \text{ es abierto en } M \]
+
+			\end{Corolario}
+
+			\begin{Corolario}
+				
+				Sean $(M, d)$ un espacio métrico, $(S, d)$ un subespacio de $(M, d)$ tal que $S$ es abierto en $M$ y $Y \sc M$, entonces \\
+
+				\[ Y \text{ es cerrado en } S \Leftrightarrow Y \text{ es cerrado en } M \]
+
+			\end{Corolario}
+
+			\begin{Proposicion}
+				
+				Sean $a, b \in \mathbb{I}$ y $S = \{ x \in (a, b) : x \in \mathbb{Q} \}$, entonces $S$ es cerrado en $\mathbb{Q}$. \\
+
+			\end{Proposicion}
+
+		\section{Frontera de un conjunto}	
+
+			\begin{Definicion}[Frontera]
+				
+				Sean $(M, d)$ un espacio métrico y $S \sc M$. Un punto $x \in M$ es llamado punto frontera de $S$ si para todo real $r > 0$, $B_{M}(x;r)$ tiene puntos de $S$ y puntos de $M - S$. \\
+
+			\end{Definicion}
+
+			\begin{Definicion}[Conjunto frontera]
+
+				Sean $(M, d)$ un espacio métrico y $S \sc M$. El conjunto frontera de $S$, denotado $\partial S$, es el conjunto de todos los puntos frontera de $S$, esto es: \\
+				
+				\[ \partial S := \{ x \in M : x \text{ es punto frontera de } S \} \] \\
+
+			\end{Definicion}
+
+			\begin{Proposicion}
+				
+				Sean $(M, d)$ un espacio métrico y $S \sc M$, entonces $\partial S = \overline{S} \n \overline{M - S}$. \\
+
+			\end{Proposicion}
+
+			\begin{Teorema}[Propiedades de la frontera]
+				
+				Sean $(M, d)$ un espacio métrico y $A \sc M$, entonnces \\
+
+				\textbf{1)} $\partial A$ es cerrado \\
+				
+				\textbf{2)} $\partial A = \partial(M - A)$ \\
+
+				\textbf{3)} Si $\partial A \neq \emptyset$, entonces las siguientes afirmaciones son equivalentes \\
+
+				\hspace{1cm} \textbf{3.1)} $x \in \partial A$ \\
+
+				\hspace{1cm} \textbf{3.2)} $d(x, A) = d(x, M - A) = 0$ \\
+
+				\hspace{1cm} \textbf{3.3)} Para todo entorno $S$ de $x$, $S \n A \neq \emptyset$ y $S \n (M - A) \neq \emptyset$ \\
+
+				\textbf{4)} $\partial A = \overline{A} - int(A)$ \\
+
+				\textbf{5)} $\overline{A} = A \u \partial A$ \\
+
+				\textbf{6)} $A$ es cerrado $\Leftrightarrow$ $\partial A \sc A$ \\
+				
+				\textbf{7)} $A$ es abierto $\Leftrightarrow$ $A \n \partial A = \emptyset$ \\
+
+				\textbf{8)} Para todo $x \in M$, $\partial ( \{ x \} ) = \emptyset$ \\
+
+				\textbf{9)} $\partial(\emptyset) = \emptyset$ \\
+
+				\textbf{10)} $\partial(M) = \emptyset$ \\
+
+			\end{Teorema}
+
+			\begin{Proposicion}
+				
+				Dados $a \in \Rn$ y un real $r > 0$, se cumple que $\overline{B(a;r)} = B[a;r]$. \\
+
+			\end{Proposicion}
+
+			\begin{Proposicion}
+				
+				Dados $a \in \Rn$ y un real $r > 0$, se cumple que $\partial (B(a;r)) = S(a;r)$. \\
+
+			\end{Proposicion}
+
+			\begin{Proposicion}
+				
+				$\partial \mathbb{Q} = \R$. \\
+
+			\end{Proposicion}
+
+			\begin{Definicion}[Borde]
+				
+				Sean $(M, d)$ un espacio métrico y $S \sc M$. El borde de $S$, denotado $b(S)$, es el conjunto \\
+				
+				\[ b(S) := S \n \partial(S) \] \\
+
+			\end{Definicion}
+
+			\begin{Teorema}[Propiedades del borde]
+				
+				Sean $(M, d)$ un espacio métrico y $A \sc M$, entonnces \\
+
+				\textbf{1)} $A$ es cerrado $\Leftrightarrow$ $b(A) = \partial(A)$ \\
+
+				\textbf{2)} $A$ es abierto $\Leftrightarrow$ $b(A) = \emptyset$ \\
+
+				\textbf{3)} $b(A) = A - int(A)$ \\
+
+				\textbf{4)} $b(M - A) = \partial(A) - b(A)$ \\
+
+			\end{Teorema}
+
+		\section{Conjuntos densos, fronterizos y nada-densos}
+
+			\begin{Definicion}[Conjunto denso]
+				
+				Sean $(M, d)$ un espacio métrico y $S \sc M$. Diremos que $S$ es denso en $M$ (O simplemente que $S$ es denso si no hay lugar a confusión) si $\overline{S} = M$. \\
+
+			\end{Definicion}
+
+			\begin{Proposicion}
+
+				Sea $(M, d)$ un espacio métrico, entonces $M$ es el único subconjunto de $M$ que es cerrado y denso. \\
+
+			\end{Proposicion}
+
+			\begin{Proposicion}
+				
+				$\Q$ es denso en $\R$. \\
+
+			\end{Proposicion}
+
+			\begin{Proposicion}
+				
+				$\I$ es denso en $\R$. \\
+
+			\end{Proposicion}
+
+			\begin{Teorema}
+				
+				Sean $(M, d)$ un espacio métrico y $A \sc M$ entonces las siguientes afirmaciones son equivalentes \\
+
+				\textbf{1)} $A$ es denso \\
+
+				\textbf{2)} $\forall x \in M : d(x, A) = 0$ \\
+
+				\textbf{3)} Para todo conjunto abierto y no vacio $S$, $S \n A = \emptyset$
+
+			\end{Teorema}
+
+			\begin{Lema}
+				
+				Sean $(M, d)$ un espacio métrico y $A \sc M$, entonces \\
+
+				\textbf{1)} $(M - \overline{A}) \u A$ es denso \\
+
+				\textbf{2)} $(M - A) \u int(A)$ es denso \\
+
+			\end{Lema}
+
+			\begin{Definicion}[Conjunto fronterizo]
+				
+				Sean $(M, d)$ un espacio métrico y $A \sc M$. Diremos que $A$ es fronterizo en $M$ (O simplemente que $A$ es fronterizo si no hay lugar a confusión) si $M - A$ es denso. \\
+
+			\end{Definicion}
+
+			\begin{Definicion}[Conjunto nada-denso]
+				
+				Sean $(M, d)$ un espacio métrico y $A \sc M$. Diremos que $A$ es nada-denso en $M$ (O simplemente que $A$ es nada-denso si no hay lugar a confusión) si $M - \overline{A}$ es denso. \\
+
+			\end{Definicion}
+
+			\begin{Teorema}
+				
+				Sean $(M, d)$ un espacio métrico y $A, B \sc M$, entonces \\
+
+				\textbf{1)} $\emptyset$ es fronterizo y nada-denso \\
+
+				\textbf{2)} $M$ no es fronterizo ni nada-denso \\
+
+				\textbf{3)} $A$ es nada-denso $\Leftrightarrow$ $\overline{A}$ es fronterizo \\
+
+				\textbf{4)} Si $A$ es cerrado y fronterizo, entonces $A$ es nada-denso \\
+
+				\textbf{5)} Si $A$ es nada-denso, entonces $A$ es fronterizo \\
+
+				\textbf{6)} $A$ es fronterizo $\Leftrightarrow$ $int(A) = \emptyset$ \\
+
+				\textbf{7)} Si $A$ es abierto y fronterizo, entonces $A = \emptyset$ \\
+
+				\textbf{8)} Si $A$ es nada-denso, entonces $int(\overline{A}) = \emptyset$ \\
+
+				\textbf{9)} Si $A \sc B$ y $B$ es fronterizo, entonces $A$ es fronterizo \\
+
+				\textbf{9)} Si $A \sc B$ y $B$ es nada-denso, entonces $A$ es nada-denso \\
+
+			\end{Teorema}
+
+			\begin{Teorema}
+				
+				Sean $(M, d)$ un espacio métrico y $A \sc M$. Si $A$ es abierto o cerrado, entonces $\partial(A)$ es nada-denso. \\
+
+			\end{Teorema}
+
+			\begin{Teorema}
+				
+				Sean $(M, d)$ un espacio métrico y $A \sc M$, entonces $b(A)$ es fronterizo. \\
+
+			\end{Teorema}
+
+			\begin{Teorema}
+				
+				Sean $(M, d)$ un espacio métrico y $A_1, A_2, ..., A_n \sc M$. Si $A_1, A_2, ..., A_n$ son nada-densos, entonces $\U_{i = 1}^{n} A_n$ es nada-denso. \\
+
+			\end{Teorema}
+
+			\begin{Lema}
+				
+				Sean $(M, d)$ un espacio métrico y $A, B \sc M$. Si $B$ es nada-denso y $A - B$ es fronterizo, entonces $A$ es fronterizo. \\
+
+			\end{Lema}
+
+	\chapter{Compacidad}
+
+		\section{Conjuntos acotados y diámetro}
+
+		\section{Conjuntos precompactos y separables}
+
+		\section{Conjuntos compactos}	
+
+			\begin{Definicion}[Conjunto acotado]
+				
+				Sean $(M, d)$ un espacio métrico y $S \sc M$. Diremos que $S$ es acotado si existe un real $r > 0$ y un $a \in M$ tales que $S \sc B(a;r)$. \\
+
+			\end{Definicion}
+
+			\begin{Definicion}[Cubierta]
+				
+				Sean $(M, d)$ un espacio métrico, $S \sc M$ y $F$ una colección de subconjunto de $M$. Diremos que $F$ es una cubierta de $S$ (O que $F$ cubre a $S$) si $S \sc \displaystyle\U_{A \in F} A$. \\
+
+			\end{Definicion}
+
+			\begin{Definicion}[Cubierta abierta]
+				
+				Sean $(M, d)$ un espacio métrico, $S \sc M$ y $F$ una cubierta de $S$. Diremos que $F$ es una cubierta abierta si cada $A \in F$ es un conjunto abierto en $M$. \\
+
+			\end{Definicion}
+
+			\begin{Definicion}[Compacidad]
+				
+				Sean $(M, d)$ un espacio métrico y $S \sc M$. Diremo que $S$ es compacto si y sólo si toda cubierta abierta de $S$ contiene una subcubierta finita (De $S$). \\
+
+				\begin{Obs}
+				
+					\hfill
+				
+					\textbf{1.} Diremos que un espacio métrico $(M, d)$ es compacto su $M \sc M$ es compacto. \\
+				
+				\end{Obs}
+
+			\end{Definicion}
+
+			\begin{Teorema}
+				
+				Sean $(M, d)$ un espacio métrico y $S \sc M$ compacto, entonces $S$ es cerrado y acotado. \\
+
+			\end{Teorema}
+
+			\begin{Teorema}
+				
+				Sean $(M, d)$ un espacio métrico y $S \sc M$ compacto, entonces todo subconjunto infinito de $S$ tiene un punto de acumulación en $S$. \\
+
+			\end{Teorema}
+
+			\begin{Lema}
+
+				Sean $(M, d)$ un espacio métrico y $S \sc M$. Si $S' = \emptyset$, entonces existe $R \sc \R_{+}$ tal que \\
+
+				\[ C = \{ B(x;r) : x \in S \y r \in R \} \] \\
+
+				Es una cubierta abierta de $S$. \\
+
+			\end{Lema}
+
+			\begin{Teorema}
+				
+				Sean $(M, d)$ un espacio métrico compacto y $X \sc M$ cerrado, entonces $X$ es compacto. \\
+
+			\end{Teorema}
+
+		\section{Conjuntos relativamente compactos}
+
+	\chapter{Sucesiones en Espacios Métricos}
+
+		\section{Sucesiones}
+
+			\begin{Definicion}[Sucesión finita]
+				
+				Sea $A$ un conjunto no vacio. Una sucesión finita en $A$ es una función $f : \{ 1, 2, ..., n \} \to A$. \\
+				
+				\begin{Obs}
+				
+					\hfill
+				
+					\textbf{1.} El rango de $f$, $f[\{ 1, 2, ..., n \}] = \{ f(1), f(2), ..., f(n) \}$ se denota $\{ f_1, f_2, ..., f_n \}$. \\
+
+					\textbf{2.} A una sucesión finita en $A$ tambien se le llama sucesión finita de puntos en $A$. \\
+				
+				\end{Obs}
+
+			\end{Definicion}
+
+			\begin{Definicion}[Sucesión infinita o sucesión]
+				
+				Sea $A$ un conjunto no vacio. Una sucesión infinita en $A$ (O simplemente sucesión en $A$) es una función $\mathbb{Z}_{+} \to A$. \\
+
+				\begin{Obs}
+				
+					\hfill
+				
+					\textbf{1.} $f \sc \mathbb{Z}_{+} \times A$ \\
+
+					\textbf{2.} Denotamos a $f \sc \mathbb{Z}_{+}$ por $\{ f_n \}$ donde $f_n$ es llamado el n-ésimo termino de la sucesión y $f_n = f(n)$. \\
+				
+				\end{Obs}
+
+			\end{Definicion}
+
+			\begin{Definicion}[Sucesión creciente de enteros]
+				
+				Sea $\{ a_n \}$ una sucesión en $\mathbb{Z}_{+}$, diremos que $\{ a_n \}$ es estrictamente creciente si \\
+
+				\[ \forall n \in \mathbb{Z}_{+} : a_n < a_{n + 1} \] \\
+
+			\end{Definicion}
+
+			\begin{Proposicion}
+				
+				Sea $\{ a_n \}$ una sucesión en $\mathbb{Z}_{+}$. Si $\{ a_n \}$ es estrictamente creciente, entonces \\
+
+				\[ \forall m, n \in \mathbb{Z}_{+} : m < n \Rightarrow a_m < a_n \] \\
+
+			\end{Proposicion}
+
+			\begin{Teorema}
+				
+				Sea $\{ a_n \}$ una sucesión en $\mathbb{Z}_{+}$, entonces las siguientes afirmaciones son equivalentes \\
+
+				\textbf{1)} $\{ a_n \}$ es estrictamente creciente \\
+
+				\textbf{2)} $\forall n \in \mathbb{Z}_{+} : a_n < a_{n + 1}$ \\
+
+				\textbf{3)} $\forall m, n \in \mathbb{Z}_{+} : m < n \Rightarrow a_m < a_{n}$ \\
+
+			\end{Teorema}
+
+			\begin{Teorema}
+				
+				Sea $\{ a_n \}$ una sucesión en $\mathbb{Z}_{+}$. Si $\{ a_n \}$ es estrictamente creciente, entonces \\
+
+				\[ \forall n \in \mathbb{Z}_{+} : n \leq a_n \] \\
+
+			\end{Teorema}
+
+			\begin{Definicion}[Subsucesión]
+
+				Sean $A$ un conjunto no vacio, $\{ x_n \}$ y $\{ y_n \}$ sucesiones en $A$. Diremos que $\{ y_n \}$ es una subsucesión de $\{ x_n \}$ si existe una sucesión de puntos en $\mathbb{Z}_{+}$, $\{ k_n \}$ estrictamente creciente y tal que \\
+
+				\[ \{ y_n \} = \{ x_{k_n} \} \] \\
+				
+			\end{Definicion}
+
+		\section{Sucesiones convergentes en Espacios Métricos}
+
+			\begin{Definicion}[Sucesión convergente en un espacio métrico]
+
+				Sean $(M, d)$ un espacio métrico y $\{ x_n \}$ una sucesión de puntos en $M$. Diremos que $\{ x_n \}$ converge si existe un $p \in M$ tal que \\
+
+				\[ \forall \varepsilon > 0 : \exists N \in \mathbb{Z}_{+} : \forall n \in \mathbb{Z}_{+} : n \geq N \Rightarrow d(x_n, p) < \varepsilon \] \\
+
+				\begin{Obs}
+				
+					\hfill
+				
+					\textbf{1.} Si $\{ x_n \}$ converge y $p \in M$ es el punto que satisface la propiedad anterior, diremos que: \\
+					
+					\hspace{1cm}\textbf{$\cdot$)} $\{ x_n \}$ converge a $p \in M$ \\
+				
+					\hspace{1cm}\textbf{$\cdot \cdot$)} $x_n \to p$ cuando $n \to \infty$ \\
+
+					\hspace{1cm}\textbf{$\cdot \cdot \cdot$)} $x_n \to p$ \\
+
+					\textbf{2.} Si no existe un $p \in M$ tal que $x_n \to p$, diremos que $\{ x_n \}$ diverge. \\
+
+					\textbf{3.} Cuando tengamos sucesiones con puntos en más de un espacio métrico, digamos $(S, d_S)$ y $(M, d_M)$, diremos que $\{ x_n \}$ converge en $S$ o bien que $\{ x_n \}$ converge en $M$. \\
+
+				\end{Obs}
+				
+			\end{Definicion}
+
+			\begin{Proposicion}
+				
+				Sean $\{ x_n \}$ una sucesión de puntos en $\Rn$ y $p \in \Rn$, entonces \\
+
+				\[ x_n \to p \Leftrightarrow d(x_n, p) \to 0 \] \\
+
+			\end{Proposicion}
+
+			\begin{Teorema}
+				
+				Sean $(M, d)$ un espacio métrico, $p \in M$ y $\{ x_n \}$ una sucesión de puntos en $M$, entonces \\
+
+				\[ x_n \to p \text{ en } (M, d) \Leftrightarrow d(x_n, p) \to 0 \text{ en } (\R, \absSymbol) \] \\
+
+			\end{Teorema}
+
+			\begin{Teorema}
+				
+				Sean $(M, d)$ un espacio métrico y $\{ x_n \}$ una sucesión de puntos en $M$, entonces $\{ x_n \}$ converge a lo más a un punto $p \in M$. \\
+
+			\end{Teorema}
+
+			\begin{Definicion}[Limite de una sucesión en un espacio métrico]
+				
+				Sean $(M, d)$ un espacio métrico y $\{ x_n \}$ una sucesión de puntos en $M$. Si $\{ x_n \}$ converge a $p \in M$, al punto $p$ le llamaremos limite de $\{ x_n \}$ y lo denotamos por $\displaystyle\lim_{n \to \infty} x_n$, esto es \\
+
+				\[ \displaystyle\lim_{n \to \infty} x_n = p \Leftrightarrow \forall \varepsilon > 0 : \exists N \in \mathbb{Z}_{+} : \forall n \in \mathbb{Z}_{+} : n \geq N \Rightarrow d(x_n, p) < \varepsilon \] \\
+
+			\end{Definicion}
+
+			\begin{Ejemplos}
+				
+				\hfill
+
+				\textbf{1.} Sea $T = (0, 1]$, entonces $\{ \frac{1}{n} \}$ no converge en $(T, \absSymbol)$. \\ 
+
+			\end{Ejemplos}
+
+			\begin{Teorema}
+				
+				Sean $(M, d)$ un espacio métrico, $\{ x_n \}$ una sucesión de puntos en $M$, $p \in M$ y $T$ el rango de $\{ x_n \}$. Si $x_n \to p$, entonces \\
+
+				\textbf{a)} $T$ es acotado \\
+
+				\textbf{b)} $p \in \overline{T}$ \\
+
+			\end{Teorema}
+
+			\begin{Corolario}
+				
+				Sean $(M, d)$ un espacio métrico, $\{ x_n \}$ una sucesión de puntos en $M$, $p \in M$ y $T$ el rango de $\{ x_n \}$. Si $x_n \to p$ y $T$ es infinito, entonces $p \in T'$. \\
+
+			\end{Corolario}
+
+			\begin{Teorema}
+				
+				Sean $(M, d)$ un espacio métrico, $T \sc M$ y $p \in M$, entonces $p \in T'$ si y sólo si para todo real $r > 0$, $B(p;r)$ tiene infinitos puntos de $T$. \\
+
+			\end{Teorema}
+
+			\begin{Teorema}
+				
+				Sean $(M, d)$ un espacio métrico, $p \in M$ y $T \sc M$, entonces $p \in \overline{T}$ si y sólo si existe una sucesión de puntos en $T$, $\{ x_n \}$ tal que $x_n \to p$. \\
+
+			\end{Teorema}
+
+			\begin{Corolario}
+				
+				Sean $(M, d)$ un espacio métrico y $T \sc M$, entonces \\
+
+				\[ \overline{T} = \{ p : \text{Existe una sucesión en } T \text{ que converge a } p \} \] \\
+
+			\end{Corolario}
+
+			\begin{Teorema}
+				
+				Sean $(M, d)$ un espacio métrico, $p \in M$ y $\{ x_n \}$ una sucesión de puntos en $M$, entonces $x_n \to p$ si y sólo si toda subsucesión de $x_n$ converge a $p$. \\
+
+			\end{Teorema}
+
+			\begin{Teorema}
+				
+				Sean $(M, d)$ un espacio métrico y $S \sc M$, entonces $S$ es cerrado si y sólo si para toda sucesión $\{ x_n \}$ de puntos en $S$ y cualquier punto $p \in M$, se cumple que si $x_n \to p$, entonces $p \in S$. \\ 
+
+			\end{Teorema}
+
+		\section{Sucesiones de Cauchy}
+
+			\begin{Definicion}[Sucesión de Cauchy en Espacios Métricos]
+				
+				Sean $(M, d)$ un espacio métrico y $\{ x_n \}$ una sucesión de puntos en $M$. Diremos que $\{ x_n \}$ es una sucesión de Cauchy si \\
+
+				\[ \forall \varepsilon > 0 : \exists N \in \mathbb{Z}_{+} : \forall n, m \in \mathbb{Z}_{+} : n, m \geq N \Rightarrow d(x_n, x_m) < \varepsilon \] \\
+
+				\begin{Obs}
+				
+					\hfill
+				
+					\textbf{1.} A la condición anterior se le conoce como 'Condición de Cauchy'. \\
+				
+				\end{Obs}
+
+			\end{Definicion}
+
+			\begin{Teorema}
+				
+				Sean $(M, d)$ un espacio métrico y $\{ x_n \}$ una sucesión de puntos en $M$ tal que $\{ x_n \}$ converge, entonces $\{ x_n \}$ es una sucesión de Cauchy. \\
+
+			\end{Teorema}
+
+			\begin{Ejemplos}
+				
+				\hfill
+
+				\textbf{1.} Consideremos $T = (0, 1]$ y el espacio métrico $(T, \absSymbol)$, entonces $\{ \frac{1}{n} \}$ es una sucesión de Cauchy, pero no converge. \\
+
+			\end{Ejemplos}
+
+			\begin{Proposicion}
+				
+				Sean $(M, d)$ un espacio métrico, $S \sc M$ un subespacio de $M$ y $\{ x_n \}$ una sucesión de puntos en $S$. Si $\{ x_n \}$ es una sucesión de Cauchy en $M$, entonces es una sucesión de Cauchy en $S$. \\
+
+			\end{Proposicion}
+
+			\begin{Teorema}
+				
+				Sea $\{ x_n \}$ una sucesión de puntos en $\Rn$, entonces \\
+
+				\[ \{ x_n \} \text{ converge } \Leftrightarrow \{ x_n \} \text{ es una sucesión de Cauchy} \] \\
+
+			\end{Teorema}
+
+			\begin{Ejemplos}
+				
+				\hfill
+
+				\textbf{1.} La sucesión definida por $x_n = \displaystyle\sum_{i = 1}^{n} \frac{(-1)^{i - 1}}{i}$ converge en $\R$. \\
+
+				\textbf{2.} Si $\{ a_n \}$ es una sucesión de puntos en $\R$ tal que $\forall n \geq 1 : \abs{ a_{n + 2} - a_{n + 1} } \leq \frac{1}{2}\abs{ a_{n + 1} - a_{n} }$, entonces $\{ a_n \}$ converge. \\
+
+			\end{Ejemplos}
+			
+		\section{Espacios Métricos completos}
+
+			\begin{Definicion}[Espacios Métricos completos]
+				
+				Un espacio métrico $(M, d)$ es llamado completo si toda sucesión de Cauchy en $M$ converge en $M$. \\
+
+				\begin{Obs}
+				
+					\hfill
+				
+					\textbf{1.} Un subconjunto $S \sc M$ es llamado completo si $(S, d)$ es un espacio métrico completo. \\
+				
+				\end{Obs}
+
+			\end{Definicion}
+
+			\begin{Ejemplos}
+				
+				\hfill
+
+				\textbf{1.} $(\Rn, \normSymbol)$ es un espacio métrico completo. \\
+
+				\textbf{2.} $((0,1], \absSymbol)$ no es un espacio métrico completo. \\
+
+				\textbf{3.} $(\Rn, d)$ donde para cualesquiera $x, y \in \Rn$ tales que $x = (x_1, x_2, ..., x_n), y = (y_1, y_2, ..., y_n)$, $d(x, y) = \max\{ \abs{ x_i - y_i} : i \in \{ 1, 2, ..., n \} \}$. \\
+
+			\end{Ejemplos}
+
+			\begin{Teorema}
+				
+				Sean $(M, d)$ un espacio métrico, $\{ x_n \}$ una sucesión de puntos en $M$ y $T$ el rango de $\{ x_n \}$. Si $\{ x_n \}$ es una sucesión de Cauchy y $T$ es finito, entonces $\{ x_n \}$ converge a algún punto $p \in T$. \\
+
+			\end{Teorema}
+
+			\begin{Teorema}
+				
+				Sean $(M, d)$ un espacio métrico y $T \sc M$. Si $T$ es compacto, entonces $T$ es completo. \\
+
+			\end{Teorema}
+
+		\section{Teorema de Baire}
+
+	\chapter{Limite y continuidad en Espacios Métricos}
+		
+		\section{Limite de una función}
+
+			\begin{Definicion}[Limite de una función]
+				
+				Sean $(S, d_S), (T, d_T)$ espacios métricos, $A \sc S$, $f : A \to T$, $p \in A'$ y $b \in T$. Diremos que el limite de $f$ cuando $x$ tiende a $p$ es $b$ (O que $f$ se aproxima a $b$ cuando $x$ se aproxima a $p$) si \\
+
+				\[ \forall \varepsilon > 0 : \exists \delta > 0 : 0 < d_S(x, p) < \delta \Rightarrow d_T(f(x), b) < \varepsilon \] \\
+
+				Y lo denotamos $\displaystyle\lim_{x \to p} f(x) = b$ o como $f \to b$ cuando $x \to p$. \\
+
+				\begin{Obs}
+				
+					\hfill
+
+					\textbf{1.} Es necesario que $p$ sea punto de acumulación de $A$ para asegurar que si $x \neq p$, podemos elegir puntos arbitrariamente cerca de $p$. \\
+
+					\textbf{2.} No requerimos que $p$ este en el dominio $A$ de $f$ ni que $b$ este en su imagen. \\
+				
+				\end{Obs}
+
+			\end{Definicion}
+
+			\begin{Teorema}
+				
+				Sean $(S, d_S), (T, d_T)$ espacios métricos, $A \sc S$, $f : A \to T$, $p \in A'$ y $b \in T$, entonces las siguientes afirmaciones son equivalentes \\
+
+				\textbf{1.} $\displaystyle\lim_{x \to p} f(x) = b$. \\
+
+				\textbf{2.} $\forall \varepsilon > 0 : \exists \delta > 0 : x \in B_S(p;\delta) \n A, x \neq p \Rightarrow f(x) \in B_T(p;\varepsilon)$ \\
+
+				\textbf{3.} Para toda sucesión $\{ x_n \}$ en $A - \{ p \}$ se cumple que si $x_n \to p$, entonces $f(x_n) \to b$. \\
+
+			\end{Teorema}
+
+			\begin{Corolario}
+				
+				Sean $(S, d_S), (T, d_T)$ espacios métricos, $A \sc S$, $f : A \to T$, $p \in A'$ y $b \in T$. Si $\displaystyle\lim_{x \to p} f(x)$ existe, entonces es único. \\
+
+			\end{Corolario}
+
+		\section{Funciones continuas}
+
+			\begin{Definicion}[Función continua]
+				
+				Sean $(S, d_S), (T, d_T)$ espacios métricos, $f : S \to T$ y $p \in S$. $f$ es continua en $p$ si \\
+
+				\[ \forall \varepsilon > 0 : \exists \delta > 0 : d_S(x, p) < \delta \Rightarrow d_T(f(x), f(p)) < \varepsilon \] \\
+
+				\begin{Obs}
+				
+					\hfill
+				
+					\textbf{1.} $f$ es continua en $A \sc S$ si $f$ es continua en cada $x \in A$. \\
+
+					\textbf{2.} $f$ esta definida sobre todo el espacio $S$, pero con esto no perdemos generalidad pues si $f : M \to T$ con $M$ un espacio métrico y $S \sc M$, entonces $(S, d_M)$ es un espacio métrico si $S \neq \emptyset$. \\
+				
+				\end{Obs}
+
+			\end{Definicion}
+
+			\begin{Lema}
+				
+				Sean $(S, d_S), (T, d_T)$ espacios métricos, $f : S \to T$ y $p \in S$, entonces \\
+
+				\textbf{1)} Si $f$ es continua en $p$ y $p \in S'$, entonces $\displaystyle\lim_{x \to p} f(x) = f(p)$ \\
+
+				\textbf{2)} Si $p \notin S'$, entonces $f$ es continua en $p$ \\
+
+			\end{Lema}
+
+			\begin{Corolario}
+				
+				Sean $(S, d_S), (T, d_T)$ espacios métricos, $f : S \to T$ y $p \in S'$, entonces $f$ es continua en $p$ si y solo si $\displaystyle\lim_{x \to p} f(x) = f(p)$. \\
+
+			\end{Corolario}
+
+			\begin{Teorema}
+				
+				Sean $(S, d_S), (T, d_T)$ espacios métricos, $f : S \to T$ y $p \in S$, entonces las siguientes afirmaciones son equivalentes \\
+
+				\textbf{1.} $f$ es continua en $p$. \\
+
+				\textbf{2.} $\forall \varepsilon > 0 : \exists \delta > 0 : f[B_S(p;\delta)] \sc B_T(f(p);\varepsilon)$ \\
+
+				\textbf{3.} Para toda sucesión $\{ x_n \}$ en $S$ se cumple que si $x_n \to p$, entonces $f(x_n) \to f(p)$. \\
+
+			\end{Teorema}
+
+			El Teorema anterior puede enunciarse como sigue: Para las funciones continuas, el simbolo de limite y el de función son intercambiables. Esto se debe a que en términos de simbolos, el inciso 3 dice que \\
+
+			\[ \lim_{n \to \infty} f(x_n) = f(\lim_{n \to \infty} x_n) \] \\
+
+			Nosotros no usamos esta notación ya que requiere cierto cuidado, pues puede ocurrir que $\{ f(x_n) \}$ converga pero $\{ x_n \}$ diverga. \\
+
+			\begin{Proposicion}
+				
+				Sean $(M, d_M), (S, d_S)$ espacios métricos, $x \in M$, $y \in S$, $\{ x_n \}$ una sucesión en $M$ y $\{ y_n \}$ una sucesión en $S$, entonces \\
+
+				\[ x_n \to x \y y_n \to y \Leftrightarrow (x_n, y_n) \to (x, y) \] \\
+
+			\end{Proposicion}
+
+			\begin{Proposicion}
+				
+				Sea $(S, d)$ un espacio métrico, entonces $d$ es continua. \\
+
+			\end{Proposicion}
+
+			\begin{Proposicion}
+				
+				Sean $(S, d)$ un espacio métrico, $x, y \in S$ y $\{ x_n \}, \{ y_n \}$ sucesiones en $S$. Si $x_n \to x$ y $y_n \to y$, entonces $d(x_n, y_n) \to d(x, y)$. \\
+
+			\end{Proposicion}
+
+			Si $f$ es continua en un punto $p$ se dice que la continuidad de $f$ es una propiedad local pues depende del comportamiento de $f$ en una vecindad de $p$, en cambio una propiedad de $f$ que depende de su comportamiento en todo su dominio se dice global. \\
+
+			En este sentido, la continuidad puntual de $f$ es una propiedad local y la continuidad de $f$ en su dominio es una propiedad global. \\
+
+		\section{Continuidad de la composición de funciones}
+
+			\begin{Teorema}
+				
+				Sean $(S, d_S), (T, d_T), (U, d_U)$ espacios métricos, $p \in S$, $f : S \to T$, $g : f[S] \to U$ funciones y $h = g \circ f$. Si $f$ es continua en $p$ y $g$ es continua en $f(p)$, entonces $h$ es continua en $p$. \\
+
+			\end{Teorema}
+
+		\section{Continuidad y preimagenes de conjuntos abiertos o cerrados}
+
+			Considere el siguiente Teorema como un recordatorio de las propiedades de las funciones \\
+
+			\begin{Teorema}
+				
+				Sean $A, B$ conjuntos, $X_1, X_2 \sc A$, $Y_1, Y_2 \sc B$ y $f : A \to B$ una función, entonces \\
+
+				\textbf{1)} $f[f^{-1}[Y_1]] \sc Y_1$ \\
+
+				\textbf{2)} $X_1 \sc f^{-1}[f[X_1]]$ \\
+
+				\textbf{3)} $X_1 \sc X_2$ \Imp $f[X_1] \sc f[X_2]$ \\
+
+				\textbf{4)} $Y_1 \sc Y_2$ \Imp $f^{-1}[Y_1] \sc f^{-1}[Y_2]$ \\
+
+				\textbf{5)} $f[X_1 \u X_2] = f[X_1] \u f_[X_2]$ \\
+
+				\textbf{6)} $f^{-1}[Y_1 \u Y_2] = f^{-1}[Y_1] \u f^{-1}[Y_2]$ \\
+
+				\textbf{7)} $f[A - X_1] \sc B - f[X_1]$ \\
+
+				\textbf{8)} $f^{-1}[B - Y_1] = A - f^{-1}[Y_1]$ \\
+
+			\end{Teorema}
+
+			\begin{Teorema}
+				
+				Sean $(S, d_S), (T, d_T)$ espacios métricos y $f : S \to T$, entonces $f$ es continua en $S$ si y solo si para todo $Y \sc T$ abierto en $T$, $f^{-1}[Y]$ es abierto en $S$. \\
+
+			\end{Teorema}
+
+			\begin{Teorema}
+				
+				Sean $(S, d_S), (T, d_T)$ espacios métricos y $f : S \to T$, entonces $f$ es continua en $S$ si y solo si para todo $Y \sc T$ cerrado en $T$, $f^{-1}[Y]$ es cerrado en $S$. \\
+
+			\end{Teorema}
+
+		\section{Continuidad y conjuntos compactos}
+
+			\begin{Teorema}
+				
+				Sean $(S, d_S), (T, d_T)$ espacios métricos y $f : X \sc S \to T$. Si $f$ es continua en $X$ y $X$ es compacto, entonces $f[X]$ es compacto. \\
+
+			\end{Teorema}
+
+			\begin{Corolario}
+				
+				Sean $(S, d_S), (T, d_T)$ espacios métricos y $f : X \sc S \to T$ una función. Si $f$ es continua en $X$ y $X$ es compacto, entonces $f[X]$ es cerrado y acotado en $T$. \\
+
+			\end{Corolario}
+
+			\begin{Teorema}
+				
+				Sean $(S, d_S), (T, d_T)$ espacios métricos y $f : X \sc S \to T$ una función. Si $S$ es compacto y $f$ es inyectiva y continua en $S$, entonces $f^{-1} : f[S] \to S$ es continua en $f[S]$. \\
+
+			\end{Teorema}
+		
+		\section{Homeomorfismos}
+
+			\begin{Definicion}[Homeomorfismo]
+
+				Sean $(S, d_S), (T, d_T)$ espacios métricos y $f : X \sc S \to T$ una función. Diremos que $f$ es un homeomorfismo si \\
+
+				\textbf{1)} $f$ es biyectiva \\
+
+				\textbf{2)} $f$ es continua \\
+
+				\textbf{3)} $f^{-1}$ es continua \\
+
+				\begin{Obs}
+				
+					\hfill
+				
+					\textbf{1.} Si existe un homeomorfismo entre $S$ y $T$ diremos que son homeomorfos. \\
+				
+				\end{Obs}
+
+			\end{Definicion}
+
+			\begin{Teorema}
+				
+				Sean $(S, d_S), (T, d_T)$ espacios métricos y $f : X \sc S \to T$ un homeomorfismo, entonces \\
+
+				\textbf{1)} $f^{-1}$ es un homeomorfismo. \\
+
+				\textbf{2)} Para todo $X \sc S$ abierto en $S$, $f[X]$ es abierto en $T$ \\
+
+				\textbf{3)} Para todo $X \sc S$ cerrado en $S$, $f[X]$ es cerrado en $T$ \\
+
+				\textbf{4)} Para todo $X \sc S$ compacto, $f[X]$ es compacto \\
+
+			\end{Teorema}
+
+			Una propiedad invariante bajo homeomorfismos se llama propiedad topológica, ser cerrado, abierto o compacto son propiedades topológicas. \\
+
+			\begin{Teorema}
+				
+				Sean $(S, d_S), (T, d_T)$ espacios métricos y $f : X \sc S \to T$ una función. Si $f$ es un un homeomorfismo que preserva distancias, entonces $f$ es una isometría. \\
+
+			\end{Teorema}
+
+		\section{Continuidad uniforme}
+
+			\begin{Definicion}[Función uniformemente continua]
+				
+				Sean $(S, d_S), (T, d_T)$ espacios métricos y $f : X \sc S \to T$ una función. $f$ es uniformemente continua en $A \sc S$ si \\
+
+				\[ \forall \varepsilon > 0 : \exists \delta > 0 : \forall x, p \in A : d_S(x, p) < \delta \Rightarrow d_T(f(x), f(y)) \]
+
+				\begin{Obs}
+				
+					\hfill
+				
+					\textbf{1.} $\delta$ depende solo de $\varepsilon$ y no de $x$ o $p$. \\
+				
+					\textbf{2.} En el otro tipo de continuidad, el cuantificador de la $p$ esta por detras de la $\varepsilon$. \\
+
+				\end{Obs}
+
+			\end{Definicion}
+
+			\begin{Teorema}
+
+				Sean $(S, d_S), (T, d_T)$ espacios métricos y $f : S \to T$ una función uniformemente continua en $A \sc S$, entonces $f$ es continua en $A$. \\
+
+			\end{Teorema}
+
+			\begin{Ejemplos}
+
+				\hfill
+
+				\textbf{1.} Sea $f : [0, 1] \to \R$ definida por $f(x) = \frac{1}{x}$ para todo $x \in \R$, entonces $f$ es continua en $(0, 1]$ pero no uniformemente continua en $(0, 1]$. \\
+
+				\textbf{2.} Sea $f : [0, 1] \to \R$ definida por $f(x) = x^2$ para todo $x \in \R$, entonces $f$ es uniformemente continua. \\
+
+			\end{Ejemplos}
+
+			\begin{Teorema}
+
+				Sean $(S, d_S), (T, d_T)$ espacios métricos $A \sc S$ y $f : S \to T$ una función. Si $f$ es continua en $A$ y $A$ es compacto, entonces $f$ es uniformemente continua en $A$. \\
+
+			\end{Teorema}
+
+		\section{Teorema del Punto fijo de Banach}
+
+			\begin{Definicion}[Punto fijo]
+
+				Sean $(S, d)$ un espacio métrico y $f : S \to S$ una función. Un punto $p \in S$ se llama punto fijo de $f$ si $f(p) = p$. \\
+
+			\end{Definicion}
+
+			\begin{Definicion}[Contracción]
+
+				Sean $(S, d)$ un espacio métrico y $f : S \to S$ una función. Diremos que $f$ es una contracción de $S$ si existe un $\alpha \in \R$ con $0 < \alpha < 1$ tal que \\
+
+				\[ \forall x, y \in S : d(f(x), f(y)) \leq \alpha d(x, y) \] \\
+
+				\begin{Obs}
+				
+					\hfill
+				
+					\textbf{1.} $\alpha$ es llamada constante de contracción. \\
+				
+				\end{Obs}
+
+			\end{Definicion}
+
+			\begin{Teorema}
+
+				Sean $(S, d)$ un espacio métrico y $f : S \to S$ una contracción de $S$, entonces $f$ es uniformemente continua en $S$. \\
+
+			\end{Teorema}
+
+			\begin{Teorema}[Del punto fijo de Banach]
+
+				Sean $(S, d)$ un espacio métrico completo y $f : S \to S$ una contracción de $S$, entonces $f$ tiene un único punto fijo. \\
+
+			\end{Teorema}
+
+	\chapter{Conjuntos conexos}
+
+		\section{Conjuntos conexos y disconexos}
+
+			\begin{Definicion}
+
+				Sean $(S, d)$ un espacio métrico, $S$ es disconexo si existen $A, B \sc S$ abiertos no vacios tales que $S = A \u B$. \\
+
+				\begin{Obs}
+				
+					\hfill
+				
+					\textbf{1.} $S$ es conexo si no es disconexo. \\
+
+					\textbf{2.} $X \sc S$ es conexo si $(X, d)$ es conexo. \\
+				
+				\end{Obs}
+
+			\end{Definicion}
+
+			\begin{Ejemplos}
+
+				\hfill
+
+				\textbf{1.} $\R - \{ 0 \}$ es disconexo. \\
+
+				\textbf{2.} Si $(a, b) \sc \R$, entonces $(a, b)$ es conexo. \\
+
+				\textbf{3.} $\mathbb{Q}$ es disconexo. \\
+
+				\textbf{4.} Si $\delta > 0$ y $x \in \mathbb{Q}$, entonces $B_{\mathbb{Q}}(x;\delta)$ es disconexo. \\
+
+				\textbf{5.} Todo espacio métrico $(S, d)$ contiene al menos un conjunto conexo no vacio. \\
+
+			\end{Ejemplos}
+
+			\begin{Definicion}
+
+				Sean $(S, d)$ un espacio métrico y $f : S \to \R$ una función. Diremos que $f$ es binaria si $f$ es continua y $f[S] \sc \{ 0, 1 \}$. \\
+
+			\end{Definicion}
+
+			\begin{Proposicion}
+
+				$(\{ 0, 1 \}, \absSymbol)$ es un espacio métrico discreto. \\
+
+			\end{Proposicion}
+
+			\begin{Proposicion}
+
+				Sea $(S, d)$ un espacio métrico discreto, entonces cada $A \sc S$ es abierto y cerrado en $S$. \\
+
+			\end{Proposicion}
+
+			\begin{Teorema}
+
+				Sea $(S, d)$ un espacio métrico, entonces $S$ es conexo si y solo si toda función binaria con dominio $S$ es constante. \\
+
+			\end{Teorema}
+
+			\begin{Teorema}
+
+				Sean $(S, d_S), (T, d_T)$ espacios métricos, $f : S \to T$ y $X \sc S$. Si $f$ es continua en $X$ y $X$ es conexo, entonces $f[X]$ es conexo. \\
+
+			\end{Teorema}
+
+			\begin{Ejemplos}
+
+				\hfill
+
+				\textbf{1.} Todo intervalo en $\R$ es conexo. \\
+
+				\textbf{2.} Si $f : S \to \Rn$ con $S \sc \R$ un intervalo, entonces $f[X]$ es conexo y a $f[X]$ se le llama curva en $\Rn$. \\
+
+			\end{Ejemplos}
+
+		\section{Cerradura y unión de conexos}
+
+			\begin{Teorema}
+
+				Sean $(S, d)$ un espacio métrico y $F$ una familia de subconjuntos conexos de $S$, entonces \\
+				
+				\[ \N_{A \in F}A \neq \emptyset \Rightarrow \displaystyle\U_{A \in F}A \text{ es conexo} \] \\
+
+			\end{Teorema}
+
+		\section{Componentes de un Conjunto}
+
+			\begin{Definicion}
+
+				Sean $(S, d)$ un espacio métrico y $x \in S$. La componente en $S$ de $x$ es el conjunto \\
+
+				\[ \textstyle\U_{S}(x) := \textstyle\U\{ A \sc S : A \text{ es conexo y } x \in A \} \] \\
+
+				\begin{Obs}
+				
+					\hfill
+				
+					\textbf{1.} $\U_{S}(x)$ tambien se llama componente (Componente conexa) de $S$. \\
+				
+				\end{Obs}
+
+			\end{Definicion}
+
+			\begin{Teorema}
+
+				Sean $(S, d)$ un espacio métrico y $x, y \in S$, entonces \\
+
+				\textbf{1)} $\U_{S}(x)$ es conexo. \\
+
+				\textbf{2)} $\U_{S}(x)$ es el $\sc$-mayor conjunto conexo que contiene a $x$. \\
+
+				\textbf{3)} $\U_{S}(x) = \U_{S}(y)$ o $\U_{S}(x) \n \U_{S}(y) = \emptyset$ \\
+
+			\end{Teorema}
+
+			\begin{Teorema}
+
+				Sea $(S, d)$ un espacio métrico, entonces $\displaystyle\U_{x \in S}\textstyle\U_{S}(x)$ es partición de $S$. \\
+
+			\end{Teorema}
+
+		\section{Arco-conexidad}
+
+			\begin{Definicion}[Conjunto Arco-conexo]
+				
+				Un conjunto $S \sc \Rn$ es arco-conexo si para cualesquiera dos puntos $a, b \in S$ existe una función $f : [0, 1] \to S$ tal que $f(0) = a$ y $f(1) = b$. \\
+
+				\begin{Obs}
+				
+					\hfill
+				
+					\textbf{1.} La función descrita anteriormente se llama camino de $a$ hacia $b$. \\
+
+					\textbf{2.} Si $f(0) \neq f(1)$, entonces $f[[0,1]]$ se llama arco que une $a$ con $b$. \\
+
+					\textbf{3.} Con esta notación, $S$ es arco-conexo si cualesquiera dos puntos en $S$ pueden unirse con un arco contenido en $S$. \\
+
+					\textbf{4.} La arco-conexidad tambien se llama camino-conexidad. \\
+
+					\textbf{5.} Si $f(t) = tb + (1 - t)a$ con $t \in [0, 1]$ la curva que une $a$ con $b$ se llama segmento de recta. \\
+				
+				\end{Obs}
+
+			\end{Definicion}
+
+			\begin{Ejemplos}
+				
+				\hfill 
+
+				\textbf{1.} Todo conjunto convexo en $\Rn$ es arco-conexo. \\
+
+				\textbf{2.} Para cualesquiera $\varepsilon > 0$ real y $x \in \Rn$, tenemos que $B(x;\varepsilon)$ es arco-conexo. \\
+
+				\textbf{3.} La unión de dos discos cerrados tangentes en $\Rn$ es arco-conexo, es decir que para cualesquiera reales $\delta_1, \delta_2 > 0$ y $x, y \in \Rn$ se cumple que si $\abs{B[x;\delta_1] \n B[y;\delta_2]} = 1$, entonces $B[x;\delta_1] \u B[y;\delta_2]$ es arco-conexo. \\
+	
+			\end{Ejemplos}
+
+			\begin{Teorema}
+				
+				Sea $S \sc \Rn$ arco-conexo, entonces $S$ es conexo. \\
+
+			\end{Teorema}
+
+			\begin{Teorema}
+				
+				Sea $S \sc \Rn$ abierto y conexo, entonces $S$ es arco-conexo. \\
+
+			\end{Teorema}
+
+			\begin{Lema}
+				
+				Sean $S$ un conjunto, $F$ una partición de $S$ y $F' \sc F$ tal que $F$ es partición de $S$, entonces $F' = F$. \\
+
+			\end{Lema}
+
+			\begin{Lema}
+				
+				Sean $(S, d)$ un espacio métrico y $T \sc S$ abierto, entonces para todo $x \in T$, $\U_{T}(x)$ es abierto en $S$. \\
+
+			\end{Lema}
+
+			\begin{Lema}
+				
+				Sean $(S, d)$ un espacio métrico, $T \sc S$ abierto y $F$ una familia de subconjuntos de $T$ tal que \\
+
+				\textbf{1)} $F$ es partición de $T$ \\
+
+				\textbf{2)} Para todo $A \in F$, $A$ es abierto \\
+
+				\textbf{3)} Para todo $A \in F$, $A$ es conexo \\
+
+				Entonces $F \sc \{ \U_{T}(x) : x \in T \}$ \\
+
+			\end{Lema}
+
+			\begin{Teorema}
+				
+				Sea $S \sc \Rn$ abierto, entonces $S = \displaystyle\U_{i = 1}^{\infty} A_i$ con cada $A_i$ abierto, conexo, no vacio y siendo la unión ajena, además esta representación es única. \\
+
+			\end{Teorema}
+
+			\begin{Definicion}
+				
+				Sea $S \sc \Rn$, diremos que \\
+
+				\textbf{1)} $S$ es una región abierta si $S$ es un conjunto abierto y conexo. \\
+
+				\textbf{2)} $S$ es una región si $S = T \u \hat{T}$ para algun subconjunto abierto y conexo $T$ tal que $\hat{T} \sc \partial T$. \\
+
+				\textbf{3)} $S$ es una región cerrada si $S = T \u \partial T$ con $T$ un conjunto abierto y conexo. \\
+
+				\begin{Obs}
+				
+					\hfill
+				
+					\textbf{1.} A las regiones abiertas tambien se les llama dominios. \\
+				
+				\end{Obs}
+
+			\end{Definicion}
+
+			\begin{Lema}
+				
+				Sean $(S, d)$ un espacio métrico, $X \sc S$ conexo tal que $X = U \u V$ con $U$ y $V$ conjuntos ajenos y abiertos en $X$, entonces \\
+
+				\textbf{1)} $U = \emptyset$ o $V = \emptyset$ \\
+
+				\textbf{2)} $U$ y $V$ son cerrados en $X$ \\
+
+			\end{Lema}
+
+			\begin{Corolario}
+				
+				Sean $(S, d)$ un espacio métrico, $X \sc S$ conexo tal que $X = U \u V$ con $U$ y $V$ conjuntos ajenos y abiertos en $X$, entonces \\
+				
+				\[ U = U \n X = \overline{U} \n X \text{ y } V = V \n X = \overline{V} \n X \] \\
+
+			\end{Corolario}
+
+			\begin{Lema}
+				
+				Sean $(M, d)$ un espacio métrico, $S \sc M$ abierto y $T \sc M$, entonces \\\
+
+				\[ S \n \overline{T} \sc \overline{S \n T} \] \\
+
+			\end{Lema}
+
+			\begin{Teorema}
+				
+				Sean $(M, d)$ un espacio métrico, $A, B \sc M$ tales que $A$ es conexo y $A \sc B \sc \overline{A}$, entonces $B$ es conexo. \\
+
+			\end{Teorema}
+
+			\begin{Ejemplos}
+				
+				\hfill
+
+				\textbf{1.} El conjunto $\{ (x, sen(\frac{1}{x})) : x \in (0, 1] \} \u \{ (x, 0) : x \in [-1, 0] \}$ es conexo. \\
+
+			\end{Ejemplos}
+
+		\section{Conjuntos conexos en $(\R, \absSymbol)$}
+
+			\begin{Lema}
+
+				Sea $S \sc \R$ tal que $\abs{S} \geq 2$, entonces \\
+
+				\[ \left( \forall a, b \in S: a < b \Rightarrow (a, b) \sc S \right) \Rightarrow S \text{ es un intervalo} \] \\
+
+			\end{Lema}
+
+			\begin{Teorema}
+
+				Sea $S \sc \R$ tal que $\abs{S} \geq 2$, entonces \\
+
+				\[ \left( \forall a, b \in S: a < b \Rightarrow (a, b) \sc S \right) \Leftrightarrow S \text{ es un intervalo} \] \\
+
+			\end{Teorema}
+
+			\begin{Teorema}
+
+				Sea $S \sc \R$ conexo, entonces \\
+
+				\textbf{1)} $S = \emptyset$ o \\
+
+				\textbf{2)} $S = \{ x \}$ para algun $x \in \R$ o \\
+
+				\textbf{3)} $S$ es un intervalo \\
+
+			\end{Teorema}
+
+	% Para evitar errores de compilación
+	\color{white} 
+	\bibliography{sample} 
+	\bibliographystyle{ieeetr}
+		
+\end{document}
