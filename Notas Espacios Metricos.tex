@@ -150,13 +150,32 @@
 % Para limites
 \newcommand{\limite}[2]{\displaystyle\lim_{#1} #2}
 
+\pagenumbering{gobble} % Evitar errores
 \makeindex
+
 \begin{document}
 
     % Para evitar errores de compilación
 	\color{white} 
 	Cita de ejemplo: \cite{DUMMY:1}
-	\color{black} 
+	\color{black} \newpage
+	\pagenumbering{arabic}
+
+	\begin{titlepage}
+		\centering
+		{\bfseries\LARGE Benmérita Universidad Autónoma de Puebla \par}
+		\vspace{1cm}
+		{\scshape\Large Facultad de Ciencias Físico Matemáticas \par}
+		\vspace{3cm}
+		{\scshape\Huge Análisis Matemático en Espacios Métricos \par}
+		\vspace{3cm}
+		{\itshape\Large Notas de clase \par}
+		\vfill
+		{\Large Luis Alfredo Monroy Villegas \par}
+		{\Large Servicio Social \par}
+		\vfill
+		{\Large Otoño 2023 \par}
+	\end{titlepage}
 
 	\tableofcontents
 	\justify

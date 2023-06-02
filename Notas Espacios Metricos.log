@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.4.28)  1 JUN 2023 12:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.4.28)  1 JUN 2023 13:10
 entering extended mode
 **"d:/Luis Alfredo Monroy Villegas/Computadora/Tareas/Universidad (BUAP)/Semestre 9 - Otoño 2023/Análisis Matemático en Espacios Métricos/Notas de Métricos/Notas Espacios Metricos.tex"
 (d:/Luis Alfredo Monroy Villegas/Computadora/Tareas/Universidad (BUAP)/Semestre 9 - Otoño 2023/Análisis Matemático en Espacios Métricos/Notas de Métricos/Notas Espacios Metricos.tex
@@ -373,29 +373,29 @@ LaTeX Info: Redefining \% on input line 26.
 )
 \openout1 = `"Notas Espacios Metricos.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 154.
-LaTeX Font Info:    ... okay on input line 154.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 154.
-LaTeX Font Info:    ... okay on input line 154.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 154.
-LaTeX Font Info:    ... okay on input line 154.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 154.
-LaTeX Font Info:    ... okay on input line 154.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 154.
-LaTeX Font Info:    ... okay on input line 154.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 154.
-LaTeX Font Info:    ... okay on input line 154.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 154.
-LaTeX Font Info:    ... okay on input line 154.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 154.
-LaTeX Font Info:    ... okay on input line 154.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 154.
-LaTeX Font Info:    ... okay on input line 154.
-LaTeX Info: Redefining \. on input line 154.
-LaTeX Info: Redefining \% on input line 154.
-Package ragged2e Info: ABD: executing \RaggedRight on input line 154.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Info: Redefining \. on input line 156.
+LaTeX Info: Redefining \% on input line 156.
+Package ragged2e Info: ABD: executing \RaggedRight on input line 156.
  ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 154.
+LaTeX Info: Redefining \selectfont on input line 156.
  (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count290
@@ -413,7 +413,7 @@ LaTeX Info: Redefining \selectfont on input line 154.
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
 )
-Package hyperref Info: Link coloring ON on input line 154.
+Package hyperref Info: Link coloring ON on input line 156.
  (C:\Program Files\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (C:\Program Files\MiKTeX\tex/latex/refcount\refcount.sty
@@ -423,25 +423,25 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count296
 )
-LaTeX Info: Redefining \ref on input line 154.
-LaTeX Info: Redefining \pageref on input line 154.
-LaTeX Info: Redefining \nameref on input line 154.
+LaTeX Info: Redefining \ref on input line 156.
+LaTeX Info: Redefining \pageref on input line 156.
+LaTeX Info: Redefining \nameref on input line 156.
  (Notas Espacios Metricos.out) (Notas Espacios Metricos.out)
 \@outlinefile=\write4
 \openout4 = `"Notas Espacios Metricos.out"'.
 
-LaTeX Info: Redefining \microtypecontext on input line 154.
-Package microtype Info: Applying patch `item' on input line 154.
-Package microtype Info: Applying patch `toc' on input line 154.
-Package microtype Info: Applying patch `eqnum' on input line 154.
-Package microtype Info: Applying patch `footnote' on input line 154.
+LaTeX Info: Redefining \microtypecontext on input line 156.
+Package microtype Info: Applying patch `item' on input line 156.
+Package microtype Info: Applying patch `toc' on input line 156.
+Package microtype Info: Applying patch `eqnum' on input line 156.
+Package microtype Info: Applying patch `footnote' on input line 156.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 154.
+LaTeX Info: Redefining \showhyphens on input line 156.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -449,9 +449,11 @@ Package microtype Info: No adjustment of character kerning.
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
 )
 
-LaTeX Warning: Citation `DUMMY:1' on page 1 undefined on input line 158.
+LaTeX Warning: Citation `DUMMY:1' on page  undefined on input line 160.
 
-[1{C:/Users/Lur0y/AppData/Local/MiKTeX/pdftex/config/pdftex.map}
+[1
+
+{C:/Users/Lur0y/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] [1
 
 ] (Notas Espacios Metricos.toc
 LaTeX Info: Redefining \. on input line 1.
@@ -471,635 +473,614 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 \tf@toc=\write5
 \openout5 = `"Notas Espacios Metricos.toc"'.
 
- [2
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.181 	\justify
+                [1
 
 ]
-LaTeX Info: Redefining \. on input line 165.
-LaTeX Info: Redefining \% on input line 165.
- [3]
+LaTeX Info: Redefining \. on input line 184.
+LaTeX Info: Redefining \% on input line 184.
+ [2]
 Cap\'{\i }tulo 1.
 
-Underfull \hbox (badness 10000) in paragraph at lines 171--172
+Underfull \hbox (badness 10000) in paragraph at lines 190--191
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 173--174
+Underfull \hbox (badness 10000) in paragraph at lines 192--193
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 175--176
+Underfull \hbox (badness 10000) in paragraph at lines 194--195
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 177--178
+Underfull \hbox (badness 10000) in paragraph at lines 196--197
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 179--180
+Underfull \hbox (badness 10000) in paragraph at lines 198--199
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 185--186
+Underfull \hbox (badness 10000) in paragraph at lines 204--205
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 187--188
+Underfull \hbox (badness 10000) in paragraph at lines 206--207
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 197--198
+Underfull \hbox (badness 10000) in paragraph at lines 216--217
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 199--200
+Underfull \hbox (badness 10000) in paragraph at lines 218--219
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 201--202
+Underfull \hbox (badness 10000) in paragraph at lines 220--221
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 203--204
+Underfull \hbox (badness 10000) in paragraph at lines 222--223
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 205--206
+Underfull \hbox (badness 10000) in paragraph at lines 224--225
 
  []
 
-[4
+[3
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 211--212
+Underfull \hbox (badness 10000) in paragraph at lines 230--231
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 213--214
+Underfull \hbox (badness 10000) in paragraph at lines 232--233
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 225--226
+Underfull \hbox (badness 10000) in paragraph at lines 244--245
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 227--228
+Underfull \hbox (badness 10000) in paragraph at lines 246--247
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 229--230
+Underfull \hbox (badness 10000) in paragraph at lines 248--249
 
  []
 
 
-Overfull \hbox (6.79951pt too wide) in paragraph at lines 231--232
+Overfull \hbox (6.79951pt too wide) in paragraph at lines 250--251
 []\OT1/cmr/bx/n/10 (-20) 4. $\OT1/cmr/m/n/10 (-20) (\U/msb/m/n/10 R[]\OML/cmm/m/it/10 ; d\OT1/cmr/m/n/10 (-20) )$ don-de pa-ra cua-les-quie-ra $(\OML/cmm/m/it/10 x[]; x[]; :::; x[]\OT1/cmr/m/n/10 (-20) )\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 (-20) (\OML/cmm/m/it/10 y[]; y[]; :::; y[]\OT1/cmr/m/n/10 (-20) ) \OMS/cmsy/m/n/10 2 \U/msb/m/n/10 R[]$\OT1/cmr/m/n/10 (-20) , $\OML/cmm/m/it/10 d\OT1/cmr/m/n/10 (-20) ((\OML/cmm/m/it/10 x[]; x[]; :::; x[]\OT1/cmr/m/n/10 (-20) )\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 (-20) (\OML/cmm/m/it/10 y[]; y[]; :::; y[]\OT1/cmr/m/n/10 (-20) )) =
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 231--232
+Underfull \hbox (badness 10000) in paragraph at lines 250--251
 
  []
 
 
-Overfull \hbox (6.79951pt too wide) in paragraph at lines 233--234
+Overfull \hbox (6.79951pt too wide) in paragraph at lines 252--253
 []\OT1/cmr/bx/n/10 (-20) 5. $\OT1/cmr/m/n/10 (-20) (\U/msb/m/n/10 R[]\OML/cmm/m/it/10 ; d\OT1/cmr/m/n/10 (-20) )$ don-de pa-ra cua-les-quie-ra $(\OML/cmm/m/it/10 x[]; x[]; :::; x[]\OT1/cmr/m/n/10 (-20) )\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 (-20) (\OML/cmm/m/it/10 y[]; y[]; :::; y[]\OT1/cmr/m/n/10 (-20) ) \OMS/cmsy/m/n/10 2 \U/msb/m/n/10 R[]$\OT1/cmr/m/n/10 (-20) , $\OML/cmm/m/it/10 d\OT1/cmr/m/n/10 (-20) ((\OML/cmm/m/it/10 x[]; x[]; :::; x[]\OT1/cmr/m/n/10 (-20) )\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 (-20) (\OML/cmm/m/it/10 y[]; y[]; :::; y[]\OT1/cmr/m/n/10 (-20) )) =
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 233--234
+Underfull \hbox (badness 10000) in paragraph at lines 252--253
 
  []
 
 
-Overfull \hbox (11.1396pt too wide) in paragraph at lines 235--236
+Overfull \hbox (11.1396pt too wide) in paragraph at lines 254--255
 []\OT1/cmr/bx/n/10 (-20) 6. $\OT1/cmr/m/n/10 (-20) (\U/msb/m/n/10 R[]\OML/cmm/m/it/10 ; d\OT1/cmr/m/n/10 (-20) )$ don-de pa-ra cua-les-quie-ra $(\OML/cmm/m/it/10 x[]; x[]\OT1/cmr/m/n/10 (-20) )\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 (-20) (\OML/cmm/m/it/10 y[]; y[]\OT1/cmr/m/n/10 (-20) ) \OMS/cmsy/m/n/10 2 \U/msb/m/n/10 R[]$\OT1/cmr/m/n/10 (-20) , $\OML/cmm/m/it/10 d\OT1/cmr/m/n/10 (-20) ((\OML/cmm/m/it/10 x[]; x[]\OT1/cmr/m/n/10 (-20) )\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 (-20) (\OML/cmm/m/it/10 y[]; y[]\OT1/cmr/m/n/10 (-20) )) = []$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 235--236
+Underfull \hbox (badness 10000) in paragraph at lines 254--255
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 237--238
+Underfull \hbox (badness 10000) in paragraph at lines 256--257
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 239--240
+Underfull \hbox (badness 10000) in paragraph at lines 258--259
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 241--242
+Underfull \hbox (badness 10000) in paragraph at lines 260--261
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 243--244
+Underfull \hbox (badness 10000) in paragraph at lines 262--263
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 245--246
+Underfull \hbox (badness 10000) in paragraph at lines 264--265
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 247--248
+Underfull \hbox (badness 10000) in paragraph at lines 266--267
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 249--250
+Underfull \hbox (badness 10000) in paragraph at lines 268--269
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--254
+Underfull \hbox (badness 10000) in paragraph at lines 272--273
 
  []
 
-LaTeX Info: Redefining \. on input line 254.
-LaTeX Info: Redefining \% on input line 254.
+LaTeX Info: Redefining \. on input line 273.
+LaTeX Info: Redefining \% on input line 273.
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 278--279
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 280--281
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 286--287
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 288--289
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 300--301
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 302--303
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 308--309
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 310--311
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 316--317
+
+ []
+
+LaTeX Info: Redefining \. on input line 317.
+LaTeX Info: Redefining \% on input line 317.
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 259--260
+Underfull \hbox (badness 10000) in paragraph at lines 318--319
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 261--262
+Underfull \hbox (badness 10000) in paragraph at lines 320--321
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 267--268
+Underfull \hbox (badness 10000) in paragraph at lines 322--323
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 269--270
+Underfull \hbox (badness 10000) in paragraph at lines 328--329
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 281--282
+Underfull \hbox (badness 10000) in paragraph at lines 330--331
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 283--284
+Underfull \hbox (badness 10000) in paragraph at lines 332--333
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 289--290
+Underfull \hbox (badness 10000) in paragraph at lines 340--341
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 291--292
+Underfull \hbox (badness 10000) in paragraph at lines 348--349
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 297--298
+Underfull \hbox (badness 10000) in paragraph at lines 356--357
 
  []
 
-LaTeX Info: Redefining \. on input line 298.
-LaTeX Info: Redefining \% on input line 298.
+
+Underfull \hbox (badness 10000) in paragraph at lines 362--363
+
+ []
+
+LaTeX Info: Redefining \. on input line 363.
+LaTeX Info: Redefining \% on input line 363.
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 299--300
+Underfull \hbox (badness 10000) in paragraph at lines 364--365
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 301--302
+Underfull \hbox (badness 10000) in paragraph at lines 366--367
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 303--304
+Underfull \hbox (badness 10000) in paragraph at lines 368--369
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 309--310
+Underfull \hbox (badness 10000) in paragraph at lines 374--375
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 311--312
+Underfull \hbox (badness 10000) in paragraph at lines 380--381
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 313--314
+Underfull \hbox (badness 10000) in paragraph at lines 386--387
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 321--322
+Underfull \hbox (badness 10000) in paragraph at lines 388--389
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 329--330
+Underfull \hbox (badness 10000) in paragraph at lines 390--391
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 337--338
+Underfull \hbox (badness 10000) in paragraph at lines 392--393
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 343--344
+Underfull \hbox (badness 10000) in paragraph at lines 394--395
 
  []
 
-LaTeX Info: Redefining \. on input line 344.
-LaTeX Info: Redefining \% on input line 344.
+
+Underfull \hbox (badness 10000) in paragraph at lines 400--401
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 402--403
+
+ []
+
+LaTeX Info: Redefining \. on input line 404.
+LaTeX Info: Redefining \% on input line 404.
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 345--346
+Underfull \hbox (badness 10000) in paragraph at lines 404--405
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 347--348
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 408.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 408.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 412--413
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 349--350
+Underfull \hbox (badness 10000) in paragraph at lines 418--419
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 355--356
+Underfull \hbox (badness 10000) in paragraph at lines 424--425
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 361--362
+Underfull \hbox (badness 10000) in paragraph at lines 426--427
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 367--368
+Underfull \hbox (badness 10000) in paragraph at lines 428--429
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 369--370
+Underfull \hbox (badness 10000) in paragraph at lines 436--437
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 371--372
+Underfull \hbox (badness 10000) in paragraph at lines 438--439
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 373--374
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 375--376
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 381--382
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 383--384
-
- []
-
-LaTeX Info: Redefining \. on input line 385.
-LaTeX Info: Redefining \% on input line 385.
+LaTeX Info: Redefining \. on input line 443.
+LaTeX Info: Redefining \% on input line 443.
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 385--386
+Underfull \hbox (badness 10000) in paragraph at lines 444--445
 
  []
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 389.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 389.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 393--394
+Underfull \hbox (badness 10000) in paragraph at lines 452--453
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 399--400
+Underfull \hbox (badness 10000) in paragraph at lines 454--455
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 405--406
+Underfull \hbox (badness 10000) in paragraph at lines 456--457
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 407--408
+Underfull \hbox (badness 10000) in paragraph at lines 458--459
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 409--410
+Underfull \hbox (badness 10000) in paragraph at lines 464--465
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 417--418
+Underfull \hbox (badness 10000) in paragraph at lines 466--467
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 419--420
+Underfull \hbox (badness 10000) in paragraph at lines 472--473
 
  []
 
-LaTeX Info: Redefining \. on input line 424.
-LaTeX Info: Redefining \% on input line 424.
+
+Underfull \hbox (badness 10000) in paragraph at lines 474--475
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 476--477
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 478--479
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 484--485
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 486--487
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 494--495
+
+ []
+
+LaTeX Info: Redefining \. on input line 495.
+LaTeX Info: Redefining \% on input line 495.
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 425--426
+Underfull \hbox (badness 10000) in paragraph at lines 496--497
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 433--434
+Underfull \hbox (badness 10000) in paragraph at lines 498--499
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 435--436
+Underfull \hbox (badness 10000) in paragraph at lines 500--501
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 437--438
+Underfull \hbox (badness 10000) in paragraph at lines 506--507
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 439--440
+Underfull \hbox (badness 10000) in paragraph at lines 508--509
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 445--446
+Underfull \hbox (badness 10000) in paragraph at lines 516--517
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 447--448
+Underfull \hbox (badness 10000) in paragraph at lines 518--519
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 453--454
+Underfull \hbox (badness 10000) in paragraph at lines 520--521
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 455--456
+Underfull \hbox (badness 10000) in paragraph at lines 522--523
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 457--458
+Underfull \hbox (badness 10000) in paragraph at lines 528--529
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 459--460
+Underfull \hbox (badness 10000) in paragraph at lines 530--531
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 465--466
+Underfull \hbox (badness 10000) in paragraph at lines 532--533
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 467--468
+Underfull \hbox (badness 10000) in paragraph at lines 538--539
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 475--476
-
- []
-
-LaTeX Info: Redefining \. on input line 476.
-LaTeX Info: Redefining \% on input line 476.
+LaTeX Info: Redefining \. on input line 539.
+LaTeX Info: Redefining \% on input line 539.
 [10]
-Underfull \hbox (badness 10000) in paragraph at lines 477--478
+Underfull \hbox (badness 10000) in paragraph at lines 540--541
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 479--480
+Underfull \hbox (badness 10000) in paragraph at lines 542--543
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 481--482
+Underfull \hbox (badness 10000) in paragraph at lines 550--551
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 487--488
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 489--490
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 497--498
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 499--500
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 501--502
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 503--504
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 509--510
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 511--512
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 513--514
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 519--520
-
- []
-
-LaTeX Info: Redefining \. on input line 520.
-LaTeX Info: Redefining \% on input line 520.
+LaTeX Info: Redefining \. on input line 554.
+LaTeX Info: Redefining \% on input line 554.
 [11]
-Underfull \hbox (badness 10000) in paragraph at lines 521--522
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 523--524
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 531--532
-
- []
-
-LaTeX Info: Redefining \. on input line 535.
-LaTeX Info: Redefining \% on input line 535.
-[12]
 Cap\'{\i }tulo 2.
 
-Underfull \hbox (badness 10000) in paragraph at lines 541--542
+Underfull \hbox (badness 10000) in paragraph at lines 560--561
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 547--548
+Underfull \hbox (badness 10000) in paragraph at lines 566--567
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 549--550
+Underfull \hbox (badness 10000) in paragraph at lines 568--569
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 555--556
+Underfull \hbox (badness 10000) in paragraph at lines 574--575
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 561--562
+Underfull \hbox (badness 10000) in paragraph at lines 580--581
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 563--564
+Underfull \hbox (badness 10000) in paragraph at lines 582--583
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 569--570
+Underfull \hbox (badness 10000) in paragraph at lines 588--589
 
  []
 
-[13
+[12
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 575--576
+Underfull \hbox (badness 10000) in paragraph at lines 594--595
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 577--578
+Underfull \hbox (badness 10000) in paragraph at lines 596--597
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 579--580
+Underfull \hbox (badness 10000) in paragraph at lines 598--599
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 581--582
+Underfull \hbox (badness 10000) in paragraph at lines 600--601
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 587--588
+Underfull \hbox (badness 10000) in paragraph at lines 606--607
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 589--590
+Underfull \hbox (badness 10000) in paragraph at lines 608--609
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 591--592
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 593--594
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 595--596
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 601--602
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 603--604
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 605--606
+Underfull \hbox (badness 10000) in paragraph at lines 610--611
 
  []
 
@@ -1109,1890 +1090,1915 @@ Underfull \hbox (badness 10000) in paragraph at lines 612--613
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 618--619
+Underfull \hbox (badness 10000) in paragraph at lines 614--615
 
  []
 
-LaTeX Info: Redefining \. on input line 619.
-LaTeX Info: Redefining \% on input line 619.
-[14]
+
+Underfull \hbox (badness 10000) in paragraph at lines 620--621
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 622--623
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 624--625
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 626--627
+Underfull \hbox (badness 10000) in paragraph at lines 631--632
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 628--629
+Underfull \hbox (badness 10000) in paragraph at lines 637--638
+
+ []
+
+LaTeX Info: Redefining \. on input line 638.
+LaTeX Info: Redefining \% on input line 638.
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 643--644
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 634--635
+Underfull \hbox (badness 10000) in paragraph at lines 645--646
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 640--641
+Underfull \hbox (badness 10000) in paragraph at lines 647--648
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 642--643
+Underfull \hbox (badness 10000) in paragraph at lines 653--654
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 650--651
+Underfull \hbox (badness 10000) in paragraph at lines 659--660
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 652--653
+Underfull \hbox (badness 10000) in paragraph at lines 661--662
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 654--655
+Underfull \hbox (badness 10000) in paragraph at lines 669--670
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 656--657
+Underfull \hbox (badness 10000) in paragraph at lines 671--672
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 658--659
+Underfull \hbox (badness 10000) in paragraph at lines 673--674
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 660--661
+Underfull \hbox (badness 10000) in paragraph at lines 675--676
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 668--669
+Underfull \hbox (badness 10000) in paragraph at lines 677--678
 
  []
 
-LaTeX Info: Redefining \. on input line 669.
-LaTeX Info: Redefining \% on input line 669.
+
+Underfull \hbox (badness 10000) in paragraph at lines 679--680
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 687--688
+
+ []
+
+LaTeX Info: Redefining \. on input line 688.
+LaTeX Info: Redefining \% on input line 688.
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 693--694
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--696
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 701--702
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 707--708
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 709--710
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 711--712
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 713--714
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 715--716
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 717--718
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 723--724
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 729--730
+
+ []
+
+LaTeX Info: Redefining \. on input line 730.
+LaTeX Info: Redefining \% on input line 730.
 [15]
-Underfull \hbox (badness 10000) in paragraph at lines 674--675
+Underfull \hbox (badness 10000) in paragraph at lines 735--736
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 676--677
+Underfull \hbox (badness 10000) in paragraph at lines 737--738
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 682--683
+Underfull \hbox (badness 10000) in paragraph at lines 739--740
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 688--689
+Underfull \hbox (badness 10000) in paragraph at lines 741--742
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 690--691
+Underfull \hbox (badness 10000) in paragraph at lines 743--744
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 692--693
+Underfull \hbox (badness 10000) in paragraph at lines 749--750
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 694--695
+Underfull \hbox (badness 10000) in paragraph at lines 755--756
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 696--697
+Underfull \hbox (badness 10000) in paragraph at lines 763--764
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 698--699
+Underfull \hbox (badness 10000) in paragraph at lines 769--770
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 704--705
+Underfull \hbox (badness 10000) in paragraph at lines 777--778
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 710--711
-
- []
-
-LaTeX Info: Redefining \. on input line 711.
-LaTeX Info: Redefining \% on input line 711.
+LaTeX Info: Redefining \. on input line 778.
+LaTeX Info: Redefining \% on input line 778.
 [16]
-Underfull \hbox (badness 10000) in paragraph at lines 716--717
+Underfull \hbox (badness 10000) in paragraph at lines 783--784
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 718--719
+Underfull \hbox (badness 10000) in paragraph at lines 785--786
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 720--721
+Underfull \hbox (badness 10000) in paragraph at lines 791--792
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 722--723
+Underfull \hbox (badness 10000) in paragraph at lines 797--798
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 724--725
+Underfull \hbox (badness 10000) in paragraph at lines 803--804
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 730--731
+Underfull \hbox (badness 10000) in paragraph at lines 809--810
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 736--737
+Underfull \hbox (badness 10000) in paragraph at lines 811--812
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 744--745
+Underfull \hbox (badness 10000) in paragraph at lines 817--818
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 750--751
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 758--759
-
- []
-
-LaTeX Info: Redefining \. on input line 759.
-LaTeX Info: Redefining \% on input line 759.
+LaTeX Info: Redefining \. on input line 818.
+LaTeX Info: Redefining \% on input line 818.
 [17]
-Underfull \hbox (badness 10000) in paragraph at lines 764--765
+Underfull \hbox (badness 10000) in paragraph at lines 823--824
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 766--767
+Underfull \hbox (badness 10000) in paragraph at lines 829--830
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 772--773
+Underfull \hbox (badness 10000) in paragraph at lines 835--836
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 778--779
+Underfull \hbox (badness 10000) in paragraph at lines 841--842
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 784--785
+Underfull \hbox (badness 10000) in paragraph at lines 847--848
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 790--791
+Underfull \hbox (badness 10000) in paragraph at lines 853--854
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 792--793
+Underfull \hbox (badness 10000) in paragraph at lines 859--860
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 798--799
-
- []
-
-LaTeX Info: Redefining \. on input line 799.
-LaTeX Info: Redefining \% on input line 799.
+LaTeX Info: Redefining \. on input line 860.
+LaTeX Info: Redefining \% on input line 860.
 [18]
-Underfull \hbox (badness 10000) in paragraph at lines 804--805
+Underfull \hbox (badness 10000) in paragraph at lines 865--866
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 810--811
+Underfull \hbox (badness 10000) in paragraph at lines 871--872
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 816--817
+Underfull \hbox (badness 10000) in paragraph at lines 879--880
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 822--823
+Underfull \hbox (badness 10000) in paragraph at lines 881--882
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 828--829
+Underfull \hbox (badness 10000) in paragraph at lines 883--884
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 834--835
+Underfull \hbox (badness 10000) in paragraph at lines 889--890
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 840--841
+Underfull \hbox (badness 10000) in paragraph at lines 891--892
 
  []
 
-LaTeX Info: Redefining \. on input line 841.
-LaTeX Info: Redefining \% on input line 841.
+
+Underfull \hbox (badness 10000) in paragraph at lines 893--894
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 895--896
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 897--898
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 903--904
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 909--910
+
+ []
+
+LaTeX Info: Redefining \. on input line 910.
+LaTeX Info: Redefining \% on input line 910.
 [19]
-Underfull \hbox (badness 10000) in paragraph at lines 846--847
+Underfull \hbox (badness 10000) in paragraph at lines 915--916
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 852--853
+Underfull \hbox (badness 10000) in paragraph at lines 921--922
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 860--861
+Underfull \hbox (badness 10000) in paragraph at lines 923--924
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 862--863
+Underfull \hbox (badness 10000) in paragraph at lines 925--926
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 864--865
+Underfull \hbox (badness 10000) in paragraph at lines 927--928
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 870--871
+Underfull \hbox (badness 10000) in paragraph at lines 933--934
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 872--873
+Underfull \hbox (badness 10000) in paragraph at lines 939--940
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 874--875
+Underfull \hbox (badness 10000) in paragraph at lines 941--942
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 876--877
+Underfull \hbox (badness 10000) in paragraph at lines 943--944
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 878--879
+Underfull \hbox (badness 10000) in paragraph at lines 949--950
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 884--885
+Underfull \hbox (badness 10000) in paragraph at lines 951--952
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 890--891
+Underfull \hbox (badness 10000) in paragraph at lines 953--954
 
  []
 
-LaTeX Info: Redefining \. on input line 891.
-LaTeX Info: Redefining \% on input line 891.
+
+Underfull \hbox (badness 10000) in paragraph at lines 959--960
+
+ []
+
+LaTeX Info: Redefining \. on input line 960.
+LaTeX Info: Redefining \% on input line 960.
 [20]
-Underfull \hbox (badness 10000) in paragraph at lines 896--897
+Underfull \hbox (badness 10000) in paragraph at lines 961--962
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 902--903
+Underfull \hbox (badness 10000) in paragraph at lines 963--964
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 904--905
+Underfull \hbox (badness 10000) in paragraph at lines 969--970
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 906--907
+Underfull \hbox (badness 10000) in paragraph at lines 977--978
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 908--909
+Underfull \hbox (badness 10000) in paragraph at lines 979--980
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 914--915
+Underfull \hbox (badness 10000) in paragraph at lines 985--986
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 920--921
+Underfull \hbox (badness 10000) in paragraph at lines 987--988
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 922--923
+Underfull \hbox (badness 10000) in paragraph at lines 989--990
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 924--925
+Underfull \hbox (badness 10000) in paragraph at lines 995--996
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 930--931
+Underfull \hbox (badness 10000) in paragraph at lines 997--998
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 932--933
+Underfull \hbox (badness 10000) in paragraph at lines 1003--1004
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 934--935
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 940--941
-
- []
-
-LaTeX Info: Redefining \. on input line 941.
-LaTeX Info: Redefining \% on input line 941.
+LaTeX Info: Redefining \. on input line 1004.
+LaTeX Info: Redefining \% on input line 1004.
 [21]
-Underfull \hbox (badness 10000) in paragraph at lines 942--943
+Underfull \hbox (badness 10000) in paragraph at lines 1005--1006
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 944--945
+Underfull \hbox (badness 10000) in paragraph at lines 1011--1012
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 950--951
+Underfull \hbox (badness 10000) in paragraph at lines 1019--1020
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 958--959
+Underfull \hbox (badness 10000) in paragraph at lines 1027--1028
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 960--961
+Underfull \hbox (badness 10000) in paragraph at lines 1035--1036
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 966--967
+Underfull \hbox (badness 10000) in paragraph at lines 1041--1042
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 968--969
+Underfull \hbox (badness 10000) in paragraph at lines 1043--1044
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 970--971
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 976--977
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 978--979
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 984--985
-
- []
-
-LaTeX Info: Redefining \. on input line 985.
-LaTeX Info: Redefining \% on input line 985.
+LaTeX Info: Redefining \. on input line 1044.
+LaTeX Info: Redefining \% on input line 1044.
 [22]
-Underfull \hbox (badness 10000) in paragraph at lines 986--987
+Underfull \hbox (badness 10000) in paragraph at lines 1049--1050
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 992--993
+Underfull \hbox (badness 10000) in paragraph at lines 1055--1056
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1000--1001
+Underfull \hbox (badness 10000) in paragraph at lines 1057--1058
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1008--1009
+Underfull \hbox (badness 10000) in paragraph at lines 1059--1060
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1016--1017
+Underfull \hbox (badness 10000) in paragraph at lines 1061--1062
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1022--1023
+Underfull \hbox (badness 10000) in paragraph at lines 1063--1064
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1024--1025
+Underfull \hbox (badness 10000) in paragraph at lines 1065--1066
 
  []
 
-LaTeX Info: Redefining \. on input line 1025.
-LaTeX Info: Redefining \% on input line 1025.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1067--1068
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1069--1070
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1071--1072
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1073--1074
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1075--1076
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1077--1078
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1079--1080
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1081--1082
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1087--1088
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1093--1094
+
+ []
+
+LaTeX Info: Redefining \. on input line 1094.
+LaTeX Info: Redefining \% on input line 1094.
 [23]
-Underfull \hbox (badness 10000) in paragraph at lines 1030--1031
+Underfull \hbox (badness 10000) in paragraph at lines 1099--1100
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1036--1037
+Underfull \hbox (badness 10000) in paragraph at lines 1105--1106
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1038--1039
+Underfull \hbox (badness 10000) in paragraph at lines 1107--1108
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1040--1041
+Underfull \hbox (badness 10000) in paragraph at lines 1113--1114
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1042--1043
+Underfull \hbox (badness 10000) in paragraph at lines 1115--1116
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1044--1045
+Underfull \hbox (badness 10000) in paragraph at lines 1117--1118
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1046--1047
+Underfull \hbox (badness 10000) in paragraph at lines 1119--1120
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1048--1049
+Underfull \hbox (badness 10000) in paragraph at lines 1121--1122
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1050--1051
+Underfull \hbox (badness 10000) in paragraph at lines 1129--1130
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1052--1053
+Underfull \hbox (badness 10000) in paragraph at lines 1135--1136
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 1054--1055
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1056--1057
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1058--1059
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1060--1061
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1062--1063
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1068--1069
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1074--1075
-
- []
-
-LaTeX Info: Redefining \. on input line 1075.
-LaTeX Info: Redefining \% on input line 1075.
+LaTeX Info: Redefining \. on input line 1137.
+LaTeX Info: Redefining \% on input line 1137.
 [24]
-Underfull \hbox (badness 10000) in paragraph at lines 1080--1081
+Underfull \hbox (badness 10000) in paragraph at lines 1141--1142
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1086--1087
+Underfull \hbox (badness 10000) in paragraph at lines 1147--1148
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1088--1089
+Underfull \hbox (badness 10000) in paragraph at lines 1153--1154
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1094--1095
+Underfull \hbox (badness 10000) in paragraph at lines 1155--1156
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1096--1097
+Underfull \hbox (badness 10000) in paragraph at lines 1157--1158
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1098--1099
+Underfull \hbox (badness 10000) in paragraph at lines 1165--1166
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1100--1101
+Underfull \hbox (badness 10000) in paragraph at lines 1167--1168
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1102--1103
+Underfull \hbox (badness 10000) in paragraph at lines 1169--1170
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1110--1111
+Underfull \hbox (badness 10000) in paragraph at lines 1175--1176
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1116--1117
+Underfull \hbox (badness 10000) in paragraph at lines 1181--1182
 
  []
 
-LaTeX Info: Redefining \. on input line 1118.
-LaTeX Info: Redefining \% on input line 1118.
+LaTeX Info: Redefining \. on input line 1182.
+LaTeX Info: Redefining \% on input line 1182.
 [25]
-Underfull \hbox (badness 10000) in paragraph at lines 1122--1123
+Underfull \hbox (badness 10000) in paragraph at lines 1187--1188
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1128--1129
+Underfull \hbox (badness 10000) in paragraph at lines 1189--1190
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1134--1135
+Underfull \hbox (badness 10000) in paragraph at lines 1191--1192
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1136--1137
+Underfull \hbox (badness 10000) in paragraph at lines 1193--1194
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1138--1139
+Underfull \hbox (badness 10000) in paragraph at lines 1195--1196
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1146--1147
+Underfull \hbox (badness 10000) in paragraph at lines 1197--1198
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1148--1149
+Underfull \hbox (badness 10000) in paragraph at lines 1199--1200
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1150--1151
+Underfull \hbox (badness 10000) in paragraph at lines 1201--1202
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1156--1157
+Underfull \hbox (badness 10000) in paragraph at lines 1203--1204
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1162--1163
+Underfull \hbox (badness 10000) in paragraph at lines 1205--1206
 
  []
 
-LaTeX Info: Redefining \. on input line 1163.
-LaTeX Info: Redefining \% on input line 1163.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1207--1208
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1213--1214
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1219--1220
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1225--1226
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1231--1232
+
+ []
+
+LaTeX Info: Redefining \. on input line 1232.
+LaTeX Info: Redefining \% on input line 1232.
 [26]
-Underfull \hbox (badness 10000) in paragraph at lines 1168--1169
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1170--1171
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1172--1173
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1174--1175
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1176--1177
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1178--1179
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1180--1181
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1182--1183
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1184--1185
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1186--1187
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1188--1189
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1194--1195
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1200--1201
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1206--1207
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1212--1213
-
- []
-
-LaTeX Info: Redefining \. on input line 1213.
-LaTeX Info: Redefining \% on input line 1213.
-[27]
-LaTeX Info: Redefining \. on input line 1216.
-LaTeX Info: Redefining \% on input line 1216.
- [28]
+LaTeX Info: Redefining \. on input line 1235.
+LaTeX Info: Redefining \% on input line 1235.
+ [27]
 Cap\'{\i }tulo 3.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1226--1227
+Underfull \hbox (badness 10000) in paragraph at lines 1245--1246
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1232--1233
+Underfull \hbox (badness 10000) in paragraph at lines 1251--1252
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1238--1239
+Underfull \hbox (badness 10000) in paragraph at lines 1257--1258
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1244--1245
+Underfull \hbox (badness 10000) in paragraph at lines 1263--1264
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1250--1251
+Underfull \hbox (badness 10000) in paragraph at lines 1269--1270
 
  []
 
-[29
+[28
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 1258--1259
+Underfull \hbox (badness 10000) in paragraph at lines 1277--1278
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1264--1265
+Underfull \hbox (badness 10000) in paragraph at lines 1283--1284
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1270--1271
+Underfull \hbox (badness 10000) in paragraph at lines 1289--1290
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1272--1273
+Underfull \hbox (badness 10000) in paragraph at lines 1291--1292
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1274--1275
+Underfull \hbox (badness 10000) in paragraph at lines 1293--1294
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1280--1281
+Underfull \hbox (badness 10000) in paragraph at lines 1299--1300
 
  []
 
-LaTeX Info: Redefining \. on input line 1286.
-LaTeX Info: Redefining \% on input line 1286.
-[30]
+LaTeX Info: Redefining \. on input line 1305.
+LaTeX Info: Redefining \% on input line 1305.
+[29]
 Cap\'{\i }tulo 4.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1292--1293
+Underfull \hbox (badness 10000) in paragraph at lines 1311--1312
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1298--1299
+Underfull \hbox (badness 10000) in paragraph at lines 1317--1318
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1300--1301
+Underfull \hbox (badness 10000) in paragraph at lines 1319--1320
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1308--1309
+Underfull \hbox (badness 10000) in paragraph at lines 1327--1328
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1314--1315
+Underfull \hbox (badness 10000) in paragraph at lines 1333--1334
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1316--1317
+Underfull \hbox (badness 10000) in paragraph at lines 1335--1336
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1324--1325
+Underfull \hbox (badness 10000) in paragraph at lines 1343--1344
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1326--1327
+Underfull \hbox (badness 10000) in paragraph at lines 1345--1346
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1332--1333
+Underfull \hbox (badness 10000) in paragraph at lines 1351--1352
 
  []
 
-[31
+[30
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 1334--1335
+Underfull \hbox (badness 10000) in paragraph at lines 1353--1354
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1340--1341
+Underfull \hbox (badness 10000) in paragraph at lines 1359--1360
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1342--1343
+Underfull \hbox (badness 10000) in paragraph at lines 1361--1362
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1344--1345
+Underfull \hbox (badness 10000) in paragraph at lines 1363--1364
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1346--1347
+Underfull \hbox (badness 10000) in paragraph at lines 1365--1366
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1352--1353
+Underfull \hbox (badness 10000) in paragraph at lines 1371--1372
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1354--1355
+Underfull \hbox (badness 10000) in paragraph at lines 1373--1374
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1360--1361
+Underfull \hbox (badness 10000) in paragraph at lines 1379--1380
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1362--1363
+Underfull \hbox (badness 10000) in paragraph at lines 1381--1382
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1370--1371
+Underfull \hbox (badness 10000) in paragraph at lines 1389--1390
 
  []
 
-LaTeX Info: Redefining \. on input line 1372.
-LaTeX Info: Redefining \% on input line 1372.
+LaTeX Info: Redefining \. on input line 1391.
+LaTeX Info: Redefining \% on input line 1391.
+[31]
+Underfull \hbox (badness 10000) in paragraph at lines 1391--1392
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1397--1398
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1399--1400
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1401--1402
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1403--1404
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1405--1406
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1407--1408
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1415--1416
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1417--1418
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1423--1424
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1425--1426
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1431--1432
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1437--1438
+
+ []
+
+LaTeX Info: Redefining \. on input line 1438.
+LaTeX Info: Redefining \% on input line 1438.
 [32]
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1373
+Underfull \hbox (badness 10000) in paragraph at lines 1439--1440
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1378--1379
+Underfull \hbox (badness 10000) in paragraph at lines 1447--1448
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1380--1381
+Underfull \hbox (badness 10000) in paragraph at lines 1453--1454
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1382--1383
+Underfull \hbox (badness 10000) in paragraph at lines 1455--1456
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1384--1385
+Underfull \hbox (badness 10000) in paragraph at lines 1457--1458
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1386--1387
+Underfull \hbox (badness 10000) in paragraph at lines 1463--1464
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1388--1389
+Underfull \hbox (badness 10000) in paragraph at lines 1469--1470
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1396--1397
+Underfull \hbox (badness 10000) in paragraph at lines 1475--1476
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1398--1399
+Underfull \hbox (badness 10000) in paragraph at lines 1481--1482
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 1404--1405
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1406--1407
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1412--1413
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1418--1419
-
- []
-
-LaTeX Info: Redefining \. on input line 1419.
-LaTeX Info: Redefining \% on input line 1419.
+LaTeX Info: Redefining \. on input line 1482.
+LaTeX Info: Redefining \% on input line 1482.
 [33]
-Underfull \hbox (badness 10000) in paragraph at lines 1420--1421
+Underfull \hbox (badness 10000) in paragraph at lines 1483--1484
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1428--1429
+Underfull \hbox (badness 10000) in paragraph at lines 1489--1490
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1434--1435
+Underfull \hbox (badness 10000) in paragraph at lines 1495--1496
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1436--1437
+Underfull \hbox (badness 10000) in paragraph at lines 1503--1504
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1438--1439
+Underfull \hbox (badness 10000) in paragraph at lines 1505--1506
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1444--1445
+Underfull \hbox (badness 10000) in paragraph at lines 1511--1512
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1450--1451
+Underfull \hbox (badness 10000) in paragraph at lines 1519--1520
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 1456--1457
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1462--1463
-
- []
-
-LaTeX Info: Redefining \. on input line 1463.
-LaTeX Info: Redefining \% on input line 1463.
+LaTeX Info: Redefining \. on input line 1526.
+LaTeX Info: Redefining \% on input line 1526.
 [34]
-Underfull \hbox (badness 10000) in paragraph at lines 1464--1465
+Underfull \hbox (badness 10000) in paragraph at lines 1527--1528
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1470--1471
+Underfull \hbox (badness 10000) in paragraph at lines 1533--1534
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1476--1477
+Underfull \hbox (badness 10000) in paragraph at lines 1539--1540
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1484--1485
+Underfull \hbox (badness 10000) in paragraph at lines 1541--1542
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1486--1487
+Underfull \hbox (badness 10000) in paragraph at lines 1549--1550
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1492--1493
+Underfull \hbox (badness 10000) in paragraph at lines 1551--1552
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1500--1501
+Underfull \hbox (badness 10000) in paragraph at lines 1559--1560
 
  []
 
-LaTeX Info: Redefining \. on input line 1507.
-LaTeX Info: Redefining \% on input line 1507.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1565--1566
+
+ []
+
+LaTeX Info: Redefining \. on input line 1574.
+LaTeX Info: Redefining \% on input line 1574.
 [35]
-Underfull \hbox (badness 10000) in paragraph at lines 1508--1509
+Underfull \hbox (badness 10000) in paragraph at lines 1575--1576
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1514--1515
+Underfull \hbox (badness 10000) in paragraph at lines 1577--1578
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1520--1521
+Underfull \hbox (badness 10000) in paragraph at lines 1579--1580
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1522--1523
+Underfull \hbox (badness 10000) in paragraph at lines 1585--1586
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1530--1531
+Underfull \hbox (badness 10000) in paragraph at lines 1591--1592
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 1532--1533
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1540--1541
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1546--1547
-
- []
-
-LaTeX Info: Redefining \. on input line 1555.
-LaTeX Info: Redefining \% on input line 1555.
+LaTeX Info: Redefining \. on input line 1597.
+LaTeX Info: Redefining \% on input line 1597.
 [36]
-Underfull \hbox (badness 10000) in paragraph at lines 1556--1557
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1558--1559
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1560--1561
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1566--1567
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1572--1573
-
- []
-
-LaTeX Info: Redefining \. on input line 1578.
-LaTeX Info: Redefining \% on input line 1578.
-[37]
 Cap\'{\i }tulo 5.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1584--1585
+Underfull \hbox (badness 10000) in paragraph at lines 1603--1604
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1586--1587
+Underfull \hbox (badness 10000) in paragraph at lines 1605--1606
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1588--1589
+Underfull \hbox (badness 10000) in paragraph at lines 1607--1608
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1594--1595
+Underfull \hbox (badness 10000) in paragraph at lines 1613--1614
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1596--1597
+Underfull \hbox (badness 10000) in paragraph at lines 1615--1616
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1604--1605
+Underfull \hbox (badness 10000) in paragraph at lines 1623--1624
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1606--1607
+Underfull \hbox (badness 10000) in paragraph at lines 1625--1626
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1608--1609
+Underfull \hbox (badness 10000) in paragraph at lines 1627--1628
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1610--1611
+Underfull \hbox (badness 10000) in paragraph at lines 1629--1630
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1616--1617
+Underfull \hbox (badness 10000) in paragraph at lines 1635--1636
 
  []
 
-[38
+[37
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 1624--1625
+Underfull \hbox (badness 10000) in paragraph at lines 1643--1644
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1626--1627
+Underfull \hbox (badness 10000) in paragraph at lines 1645--1646
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1632--1633
+Underfull \hbox (badness 10000) in paragraph at lines 1651--1652
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1634--1635
+Underfull \hbox (badness 10000) in paragraph at lines 1653--1654
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1642--1643
+Underfull \hbox (badness 10000) in paragraph at lines 1661--1662
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1644--1645
+Underfull \hbox (badness 10000) in paragraph at lines 1663--1664
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1646--1647
+Underfull \hbox (badness 10000) in paragraph at lines 1665--1666
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1652--1653
+Underfull \hbox (badness 10000) in paragraph at lines 1671--1672
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1658--1659
+Underfull \hbox (badness 10000) in paragraph at lines 1677--1678
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1660--1661
+Underfull \hbox (badness 10000) in paragraph at lines 1679--1680
 
  []
 
-LaTeX Info: Redefining \. on input line 1661.
-LaTeX Info: Redefining \% on input line 1661.
+LaTeX Info: Redefining \. on input line 1680.
+LaTeX Info: Redefining \% on input line 1680.
+[38]
+Underfull \hbox (badness 10000) in paragraph at lines 1681--1682
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1683--1684
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1687--1688
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1689--1690
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1691--1692
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1695--1696
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1697--1698
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1703--1704
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1709--1710
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1713--1714
+
+ []
+
+LaTeX Info: Redefining \. on input line 1714.
+LaTeX Info: Redefining \% on input line 1714.
 [39]
-Underfull \hbox (badness 10000) in paragraph at lines 1662--1663
+Underfull \hbox (badness 10000) in paragraph at lines 1715--1716
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1664--1665
+Underfull \hbox (badness 10000) in paragraph at lines 1721--1722
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1668--1669
+Underfull \hbox (badness 10000) in paragraph at lines 1727--1728
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1670--1671
+Underfull \hbox (badness 10000) in paragraph at lines 1731--1732
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1672--1673
+Underfull \hbox (badness 10000) in paragraph at lines 1733--1734
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1676--1677
+Underfull \hbox (badness 10000) in paragraph at lines 1735--1736
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1678--1679
+Underfull \hbox (badness 10000) in paragraph at lines 1737--1738
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1684--1685
+Underfull \hbox (badness 10000) in paragraph at lines 1739--1740
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1690--1691
+Underfull \hbox (badness 10000) in paragraph at lines 1741--1742
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1694--1695
+Underfull \hbox (badness 10000) in paragraph at lines 1743--1744
 
  []
 
-LaTeX Info: Redefining \. on input line 1695.
-LaTeX Info: Redefining \% on input line 1695.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1745--1746
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1747--1748
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1753--1754
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1759--1760
+
+ []
+
+LaTeX Info: Redefining \. on input line 1760.
+LaTeX Info: Redefining \% on input line 1760.
 [40]
-Underfull \hbox (badness 10000) in paragraph at lines 1696--1697
+Underfull \hbox (badness 10000) in paragraph at lines 1767--1768
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1702--1703
+Underfull \hbox (badness 10000) in paragraph at lines 1773--1774
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1708--1709
+Underfull \hbox (badness 10000) in paragraph at lines 1779--1780
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1712--1713
+Underfull \hbox (badness 10000) in paragraph at lines 1787--1788
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1714--1715
+Underfull \hbox (badness 10000) in paragraph at lines 1789--1790
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1716--1717
+Underfull \hbox (badness 10000) in paragraph at lines 1791--1792
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1718--1719
+Underfull \hbox (badness 10000) in paragraph at lines 1793--1794
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1720--1721
+Underfull \hbox (badness 10000) in paragraph at lines 1799--1800
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1722--1723
+Underfull \hbox (badness 10000) in paragraph at lines 1807--1808
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 1724--1725
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1726--1727
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1728--1729
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1734--1735
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1740--1741
-
- []
-
-LaTeX Info: Redefining \. on input line 1741.
-LaTeX Info: Redefining \% on input line 1741.
+LaTeX Info: Redefining \. on input line 1808.
+LaTeX Info: Redefining \% on input line 1808.
 [41]
-Underfull \hbox (badness 10000) in paragraph at lines 1748--1749
+Underfull \hbox (badness 10000) in paragraph at lines 1809--1810
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1754--1755
+Underfull \hbox (badness 10000) in paragraph at lines 1811--1812
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1760--1761
+Underfull \hbox (badness 10000) in paragraph at lines 1813--1814
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1768--1769
+Underfull \hbox (badness 10000) in paragraph at lines 1815--1816
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1770--1771
+Underfull \hbox (badness 10000) in paragraph at lines 1819--1820
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1772--1773
+Underfull \hbox (badness 10000) in paragraph at lines 1823--1824
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1774--1775
+Underfull \hbox (badness 10000) in paragraph at lines 1831--1832
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1780--1781
+Underfull \hbox (badness 10000) in paragraph at lines 1839--1840
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1788--1789
+Underfull \hbox (badness 10000) in paragraph at lines 1841--1842
 
  []
 
-LaTeX Info: Redefining \. on input line 1789.
-LaTeX Info: Redefining \% on input line 1789.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1849--1850
+
+ []
+
+LaTeX Info: Redefining \. on input line 1856.
+LaTeX Info: Redefining \% on input line 1856.
 [42]
-Underfull \hbox (badness 10000) in paragraph at lines 1790--1791
+Underfull \hbox (badness 10000) in paragraph at lines 1857--1858
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1792--1793
+Underfull \hbox (badness 10000) in paragraph at lines 1859--1860
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1794--1795
+Underfull \hbox (badness 10000) in paragraph at lines 1865--1866
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1796--1797
+Underfull \hbox (badness 10000) in paragraph at lines 1873--1874
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1800--1801
+Underfull \hbox (badness 10000) in paragraph at lines 1879--1880
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1804--1805
+Underfull \hbox (badness 10000) in paragraph at lines 1881--1882
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1812--1813
+Underfull \hbox (badness 10000) in paragraph at lines 1887--1888
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1820--1821
+Underfull \hbox (badness 10000) in paragraph at lines 1895--1896
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1822--1823
+Underfull \hbox (badness 10000) in paragraph at lines 1901--1902
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 1830--1831
-
- []
-
-LaTeX Info: Redefining \. on input line 1837.
-LaTeX Info: Redefining \% on input line 1837.
+LaTeX Info: Redefining \. on input line 1902.
+LaTeX Info: Redefining \% on input line 1902.
 [43]
-Underfull \hbox (badness 10000) in paragraph at lines 1838--1839
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1840--1841
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1846--1847
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1854--1855
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1860--1861
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1862--1863
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1868--1869
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1876--1877
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1882--1883
-
- []
-
-LaTeX Info: Redefining \. on input line 1883.
-LaTeX Info: Redefining \% on input line 1883.
-[44]
-LaTeX Info: Redefining \. on input line 1886.
-LaTeX Info: Redefining \% on input line 1886.
- [45]
+LaTeX Info: Redefining \. on input line 1905.
+LaTeX Info: Redefining \% on input line 1905.
+ [44]
 Cap\'{\i }tulo 6.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1892--1893
+Underfull \hbox (badness 10000) in paragraph at lines 1911--1912
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1898--1899
+Underfull \hbox (badness 10000) in paragraph at lines 1917--1918
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1900--1901
+Underfull \hbox (badness 10000) in paragraph at lines 1919--1920
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1910--1911
+Underfull \hbox (badness 10000) in paragraph at lines 1929--1930
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1912--1913
+Underfull \hbox (badness 10000) in paragraph at lines 1931--1932
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1914--1915
+Underfull \hbox (badness 10000) in paragraph at lines 1933--1934
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1916--1917
+Underfull \hbox (badness 10000) in paragraph at lines 1935--1936
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1918--1919
+Underfull \hbox (badness 10000) in paragraph at lines 1937--1938
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1924--1925
+Underfull \hbox (badness 10000) in paragraph at lines 1943--1944
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1930--1931
+Underfull \hbox (badness 10000) in paragraph at lines 1949--1950
 
  []
 
-[46
+[45
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 1936--1937
+Underfull \hbox (badness 10000) in paragraph at lines 1955--1956
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1942--1943
+Underfull \hbox (badness 10000) in paragraph at lines 1961--1962
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1948--1949
+Underfull \hbox (badness 10000) in paragraph at lines 1967--1968
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1956--1957
+Underfull \hbox (badness 10000) in paragraph at lines 1975--1976
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1958--1959
+Underfull \hbox (badness 10000) in paragraph at lines 1977--1978
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1966--1967
+Underfull \hbox (badness 10000) in paragraph at lines 1985--1986
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1968--1969
+Underfull \hbox (badness 10000) in paragraph at lines 1987--1988
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1976--1977
+Underfull \hbox (badness 10000) in paragraph at lines 1995--1996
 
  []
 
-LaTeX Info: Redefining \. on input line 1977.
-LaTeX Info: Redefining \% on input line 1977.
+LaTeX Info: Redefining \. on input line 1996.
+LaTeX Info: Redefining \% on input line 1996.
+[46]
+Underfull \hbox (badness 10000) in paragraph at lines 1997--1998
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2003--2004
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2011--2012
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2013--2014
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2015--2016
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2017--2018
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2023--2024
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2031--2032
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2037--2038
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2039--2040
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2041--2042
+
+ []
+
+LaTeX Info: Redefining \. on input line 2043.
+LaTeX Info: Redefining \% on input line 2043.
 [47]
-Underfull \hbox (badness 10000) in paragraph at lines 1978--1979
+Underfull \hbox (badness 10000) in paragraph at lines 2043--2044
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1984--1985
+Underfull \hbox (badness 10000) in paragraph at lines 2045--2046
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1992--1993
+Underfull \hbox (badness 10000) in paragraph at lines 2055--2056
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1994--1995
+Underfull \hbox (badness 10000) in paragraph at lines 2057--2058
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1996--1997
+Underfull \hbox (badness 10000) in paragraph at lines 2059--2060
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1998--1999
+Underfull \hbox (badness 10000) in paragraph at lines 2065--2066
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2004--2005
+Underfull \hbox (badness 10000) in paragraph at lines 2071--2072
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2012--2013
+Underfull \hbox (badness 10000) in paragraph at lines 2077--2078
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2018--2019
+Underfull \hbox (badness 10000) in paragraph at lines 2083--2084
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2020--2021
+Underfull \hbox (badness 10000) in paragraph at lines 2089--2090
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 2022--2023
-
- []
-
-LaTeX Info: Redefining \. on input line 2024.
-LaTeX Info: Redefining \% on input line 2024.
+LaTeX Info: Redefining \. on input line 2090.
+LaTeX Info: Redefining \% on input line 2090.
 [48]
-Underfull \hbox (badness 10000) in paragraph at lines 2024--2025
+Underfull \hbox (badness 10000) in paragraph at lines 2091--2092
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2026--2027
+Underfull \hbox (badness 10000) in paragraph at lines 2093--2094
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2036--2037
+Underfull \hbox (badness 10000) in paragraph at lines 2095--2096
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2038--2039
+Underfull \hbox (badness 10000) in paragraph at lines 2097--2098
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2040--2041
+Underfull \hbox (badness 10000) in paragraph at lines 2103--2104
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2046--2047
+Underfull \hbox (badness 10000) in paragraph at lines 2109--2110
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2052--2053
+Underfull \hbox (badness 10000) in paragraph at lines 2111--2112
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2058--2059
+Underfull \hbox (badness 10000) in paragraph at lines 2113--2114
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2064--2065
+Underfull \hbox (badness 10000) in paragraph at lines 2115--2116
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2070--2071
+Underfull \hbox (badness 10000) in paragraph at lines 2121--2122
 
  []
 
-LaTeX Info: Redefining \. on input line 2071.
-LaTeX Info: Redefining \% on input line 2071.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2129--2130
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2131--2132
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2133--2134
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2139--2140
+
+ []
+
+LaTeX Info: Redefining \. on input line 2140.
+LaTeX Info: Redefining \% on input line 2140.
 [49]
-Underfull \hbox (badness 10000) in paragraph at lines 2072--2073
+Underfull \hbox (badness 10000) in paragraph at lines 2141--2142
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2074--2075
+Underfull \hbox (badness 10000) in paragraph at lines 2147--2148
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2076--2077
+Underfull \hbox (badness 10000) in paragraph at lines 2149--2150
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2078--2079
+Underfull \hbox (badness 10000) in paragraph at lines 2155--2156
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2084--2085
+Underfull \hbox (badness 10000) in paragraph at lines 2163--2164
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2090--2091
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 2167.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\left' on input line 2167.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\right' on input line 2167.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 2167.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2171--2172
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2092--2093
+Underfull \hbox (badness 10000) in paragraph at lines 2173--2174
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2094--2095
+Underfull \hbox (badness 10000) in paragraph at lines 2179--2180
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 2096--2097
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2102--2103
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2110--2111
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2112--2113
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2114--2115
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2120--2121
-
- []
-
-LaTeX Info: Redefining \. on input line 2121.
-LaTeX Info: Redefining \% on input line 2121.
+LaTeX Info: Redefining \. on input line 2181.
+LaTeX Info: Redefining \% on input line 2181.
 [50]
-Underfull \hbox (badness 10000) in paragraph at lines 2122--2123
+Underfull \hbox (badness 10000) in paragraph at lines 2181--2182
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2128--2129
+Underfull \hbox (badness 10000) in paragraph at lines 2187--2188
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2130--2131
+Underfull \hbox (badness 10000) in paragraph at lines 2189--2190
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2136--2137
+Underfull \hbox (badness 10000) in paragraph at lines 2191--2192
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2144--2145
-
- []
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 2148.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\left' on input line 2148.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\right' on input line 2148.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 2148.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2152--2153
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2154--2155
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2160--2161
-
- []
-
-LaTeX Info: Redefining \. on input line 2162.
-LaTeX Info: Redefining \% on input line 2162.
-[51]
-Underfull \hbox (badness 10000) in paragraph at lines 2162--2163
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2168--2169
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2170--2171
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2172--2173
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2174--2175
+Underfull \hbox (badness 10000) in paragraph at lines 2193--2194
 
  []
 
 (Notas Espacios Metricos.bbl
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
- [52]
+ [51]
 
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
-) [53
+) [52
 
 ] (Notas Espacios Metricos.aux
 LaTeX Info: Redefining \. on input line 26.
@@ -3005,17 +3011,17 @@ Package rerunfilecheck Info: File `"Notas Espacios Metricos".out' has not change
 (rerunfilecheck)             Checksum: 6391FFD4B57C9111C1EA38C7E88E8676;8161.
  ) 
 Here is how much of TeX's memory you used:
- 13523 strings out of 479334
- 196988 string characters out of 2866960
+ 13564 strings out of 479334
+ 197508 string characters out of 2866960
  563016 words of memory out of 3000000
- 30341 multiletter control sequences out of 15000+200000
- 415522 words of font info for 123 fonts, out of 3000000 for 9000
+ 30355 multiletter control sequences out of 15000+200000
+ 418373 words of font info for 141 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  71i,8n,74p,1180b,619s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
-Output written on "Notas Espacios Metricos.pdf" (53 pages, 348018 bytes).
+<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
+Output written on "Notas Espacios Metricos.pdf" (54 pages, 375486 bytes).
 PDF statistics:
- 768 PDF objects out of 1000 (max. 8388607)
+ 779 PDF objects out of 1000 (max. 8388607)
  301 named destinations out of 1000 (max. 500000)
- 26953 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 39241 words of extra memory for PDF output out of 42996 (max. 10000000)
 
