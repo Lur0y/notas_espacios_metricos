@@ -1,42 +1,56 @@
-\babel@toc {spanish}{}
+\babel@toc {spanish}{}\relax 
 \contentsline {chapter}{\numberline {1}Espacios Métricos}{3}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Definición y Ejemplos}{3}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Equivalencias y propiedades básicas}{5}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Construcción de métricas a partir de otras}{6}{section.1.3}%
-\contentsline {section}{\numberline {1.4}Métricas relacionadas con $\mathbb {R}$}{8}{section.1.4}%
-\contentsline {section}{\numberline {1.5}Distancia entre conjuntos}{8}{section.1.5}%
-\contentsline {section}{\numberline {1.6}Isometrías}{10}{section.1.6}%
-\contentsline {chapter}{\numberline {2}Conjuntos abiertos y conjuntos cerrados}{12}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Conjuntos abiertos}{12}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Conjuntos cerrados}{15}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Puntos adherentes y puntos de acumulación}{16}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Relación entre conjuntos cerrados y puntos adherentes}{19}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Subespacios}{21}{section.2.5}%
-\contentsline {section}{\numberline {2.6}Frontera de un conjunto}{22}{section.2.6}%
-\contentsline {section}{\numberline {2.7}Conjuntos densos, fronterizos y nada-densos}{24}{section.2.7}%
-\contentsline {chapter}{\numberline {3}Compacidad}{28}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Conjuntos acotados y diámetro}{28}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Conjuntos precompactos y separables}{28}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Conjuntos compactos}{28}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Conjuntos relativamente compactos}{29}{section.3.4}%
-\contentsline {chapter}{\numberline {4}Sucesiones en Espacios Métricos}{30}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Sucesiones}{30}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Sucesiones convergentes en Espacios Métricos}{31}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Sucesiones de Cauchy}{34}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Espacios Métricos completos}{35}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Teorema de Baire}{36}{section.4.5}%
-\contentsline {chapter}{\numberline {5}Limite y continuidad en Espacios Métricos}{37}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Limite de una función}{37}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Funciones continuas}{38}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Continuidad de la composición de funciones}{40}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Continuidad y preimagenes de conjuntos abiertos o cerrados}{40}{section.5.4}%
-\contentsline {section}{\numberline {5.5}Continuidad y conjuntos compactos}{41}{section.5.5}%
-\contentsline {section}{\numberline {5.6}Homeomorfismos}{41}{section.5.6}%
-\contentsline {section}{\numberline {5.7}Continuidad uniforme}{42}{section.5.7}%
-\contentsline {section}{\numberline {5.8}Teorema del Punto fijo de Banach}{43}{section.5.8}%
-\contentsline {chapter}{\numberline {6}Conjuntos conexos}{45}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Conjuntos conexos y disconexos}{45}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Cerradura y unión de conexos}{46}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Componentes de un Conjunto}{47}{section.6.3}%
-\contentsline {section}{\numberline {6.4}Arco-conexidad}{47}{section.6.4}%
-\contentsline {section}{\numberline {6.5}Conjuntos conexos en $(\mathbb {R}, \left |\right .)$}{50}{section.6.5}%
+\contentsline {section}{\numberline {1.1}Definición, equivalencias y propiedades básicas}{3}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Construcción de métricas a partir de otras}{12}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Métricas relacionadas con $\mathbb {R}$}{18}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Métricas relacionadas con $\mathbb {R}^n$}{20}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Distancia entre conjuntos}{22}{section.1.5}%
+\contentsline {section}{\numberline {1.6}Isometrías}{24}{section.1.6}%
+\contentsline {section}{\numberline {1.7}El espacio métrico discreto}{26}{section.1.7}%
+\contentsline {chapter}{\numberline {2}Conjuntos abiertos y conjuntos cerrados}{29}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Bolas abiertas, bolas cerradas y superficies esfericas}{29}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Puntos interiores, interior y conjuntos abiertos}{31}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Puntos adherentes, clausura y conjuntos cerrados}{35}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Puntos de acumulación, puntos aislados, derivado y conjuntos perfectos}{44}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Entornos}{50}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Puntos frontera, frontera y borde}{52}{section.2.6}%
+\contentsline {section}{\numberline {2.7}Subespacios}{59}{section.2.7}%
+\contentsline {section}{\numberline {2.8}Conjuntos densos}{67}{section.2.8}%
+\contentsline {section}{\numberline {2.9}Conjuntos fronterizos}{69}{section.2.9}%
+\contentsline {section}{\numberline {2.10}Conjuntos nada-densos}{71}{section.2.10}%
+\contentsline {section}{\numberline {2.11}Conjuntos abiertos y conjuntos cerrados en un espacio métrico discreto}{76}{section.2.11}%
+\contentsline {chapter}{\numberline {3}Conjuntos conexos}{79}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Disconexión, conjuntos disconexos y conjuntos conexos}{79}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Cerradura y unión de conexos}{81}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Conjuntos separados}{82}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Componentes conexas de un conjunto}{82}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Conjuntos totalmente disconexos}{83}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Conjuntos localmente conexos}{84}{section.3.6}%
+\contentsline {section}{\numberline {3.7}Conjuntos conexos en $\mathbb {R}$}{84}{section.3.7}%
+\contentsline {section}{\numberline {3.8}Conjuntos conexos en $\mathbb {R}^n$}{85}{section.3.8}%
+\contentsline {section}{\numberline {3.9}Conjuntos conexos en un espacio métrico discreto}{86}{section.3.9}%
+\contentsline {chapter}{\numberline {4}Conjuntos Compactos}{87}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Conjuntos acotados y diámetro}{87}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Conjuntos precompactos y separables}{87}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Conjuntos compactos}{87}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Conjuntos relativamente compactos}{88}{section.4.4}%
+\contentsline {chapter}{\numberline {5}Sucesiones en Espacios Métricos}{89}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Sucesiones}{89}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Sucesiones convergentes en Espacios Métricos}{90}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Sucesiones de Cauchy}{93}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Espacios Métricos completos}{94}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Teorema de Baire}{95}{section.5.5}%
+\contentsline {chapter}{\numberline {6}Limite y continuidad en Espacios Métricos}{96}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Limite de una función}{96}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Funciones continuas}{97}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Continuidad de la composición de funciones}{99}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Continuidad y preimagenes de conjuntos abiertos o cerrados}{99}{section.6.4}%
+\contentsline {section}{\numberline {6.5}Continuidad y conjuntos compactos}{100}{section.6.5}%
+\contentsline {section}{\numberline {6.6}Homeomorfismos}{100}{section.6.6}%
+\contentsline {section}{\numberline {6.7}Continuidad uniforme}{101}{section.6.7}%
+\contentsline {section}{\numberline {6.8}Teorema del Punto fijo de Banach}{102}{section.6.8}%
+\contentsline {section}{\numberline {6.9}Otros}{103}{section.6.9}%
+\contentsline {section}{\numberline {6.10}Arco-conexidad}{103}{section.6.10}%
+\contentsline {chapter}{\numberline {7}Espacios normados}{106}{chapter.7}%
+\contentsline {chapter}{\numberline {8}Análisis Matemático en $\mathbb {R}^n$}{107}{chapter.8}%
+\contentsline {chapter}{\numberline {9}Para investigar}{109}{chapter.9}%
